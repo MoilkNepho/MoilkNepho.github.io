@@ -3,5 +3,5 @@ permalink: /otter-pop/:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
 name: "Moilker橱窗"
-description: "内外无穷"
+description: "Moilker主页"
 url: http://duras.wang
