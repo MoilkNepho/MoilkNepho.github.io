@@ -101,13 +101,13 @@ a {
     padding: 0;
     margin: 0;
     a{
-        font-size: $font-size-big;
-        color: $link-color;
+      font-size: $font-size-big;
+      color: $link-color;
 
-        i{
-          color: $primary-color;
-          margin-right: $font-size-small;
-        }
+      i{
+        color: $primary-color;
+        margin-right: $font-size-small;
+      }
     }
     a:hover{
       text-decoration: none;
@@ -148,12 +148,13 @@ blockquote {
 }
 
 pre {
-  font-size: 1.2em;
-  font-style: italic;
-  line-height: 1.5em;
+  font-size: 0.9em;
   margin: 2em 0;
   padding: 0 1em;
-  border-left: 4px dashed blue;
+  border: 1px solid rgb(30, 62, 21);
+  border-radius: 4px;
+  background:rgb(217,207,141)
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 video {
