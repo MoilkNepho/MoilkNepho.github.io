@@ -1,4 +1,3 @@
-pygments: true
 permalink: /:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
@@ -13,3 +12,7 @@ kramdown:
   coderay:
     coderay_line_numbers:  nil
 highlighter: pygments
+
+# 分页设置
+paginate: 10
+paginate_path: "page/:num"
