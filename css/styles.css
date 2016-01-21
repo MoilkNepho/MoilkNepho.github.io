@@ -147,6 +147,15 @@ blockquote {
   border-left: 4px dashed blue;
 }
 
+pre {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.5em;
+  margin: 2em 0;
+  padding: 0 1em;
+  border-left: 4px dashed blue;
+}
+
 video {
   width: 100%;
 }
