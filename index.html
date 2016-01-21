@@ -2,6 +2,6 @@
 layout: default
 ---
 <div class="posts">
-      {% for post in site.posts %}{% if post.hidden != true %}<a href="mypost.html" class="post-link">{{ post.title }}</a>
+      {% for post in site.posts %}{% if post.hidden != true %}<a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a>
       {% endif %}{% endfor %}
 </div>
