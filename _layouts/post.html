@@ -1,52 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ site.description }}</title>
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="apple-touch-img/logo-precomposed" href="/img/logo.png">
-    <link rel="apple-touch-img/logo" href="/img/logo.png">
-    <link rel="apple-touch-img/logo" sizes="72x72" href="/img/logo.png">
-    <link rel="apple-touch-img/logo" sizes="114x114" href="/img/logo.png">
-
-    <link href="../css/styles.css" rel="stylesheet" type="text/css">
-    <link href="../css/pygments.css" rel="stylesheet" type="text/css">
-    <link href="../img/favicon.ico" rel="shortcut icon">
-</head>
-<body>
-  <div class="sidebar">
-    <a href="/" class="logo">
-      <img src="/img/logo.png">
-    </a>
-
-    <ul class="nav">
-      <div class="nav-inner">
-        <li><a href="http://duras.wang/Blog"><span class="icon doc"></span>blog</a></li>
-        <li><a href="/projects"><span class="icon code"></span>projects</a></li>
-        <li><a href="http://github.com/moilknepho"><span class="icon github"></span>github</a></li>
-        <li><a href="/ "><span class="icon info"></span>about</a></li>
-      </div>
-    </ul>
-  </div>
-  <div class="wrapper">
-    <!--<h1><marquee scrolldelay="60">otter pop - the world's greatest jekyll theme</marquee></h1>-->
-    <h1>{{ page.title }}</h1>
-
-    <div class="post-body">
-      {{ content }}
-    </div>
-  </div>
-  <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-33073396-1', 'tybenz.com');
-    ga('send', 'pageview');
-
-  </script>
-</body>
-</html>
+---
+layout: default
+---
+<div class="post-body">
+        <h3 class="title">
+          <i class="fa fa-bookmark-o"></i>{{page.title}}
+        </h3>
+        {{content}}
+</div>
