@@ -3,7 +3,10 @@ markdown: rdiscount
 exclude: ['.git']
 name: "Moilker橱窗"
 description: "Moilker主页"
-url: http://duras.wang
+
+# 地址设置
+baseurl: ""
+url: "http://127.0.0.1:4000"
 
 # Markdown设置
 kramdown:
