@@ -5,3 +5,11 @@ exclude: ['.git']
 name: "Moilker橱窗"
 description: "Moilker主页"
 url: http://duras.wang
+
+# Markdown设置
+kramdown:
+  input:  GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers:  nil
+highlighter: pygments
