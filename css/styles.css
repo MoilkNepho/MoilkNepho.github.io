@@ -50,9 +50,10 @@ a {
   text-transform: lowercase;
   display: block;
   max-width: 400px;
-  padding: 20px 30px;
+  padding: 20px 20px;
   margin-bottom: 10px;
   border: 2px dotted red;
+  border-radius: 4px;
 }
 
 .post-link:hover {
@@ -226,7 +227,7 @@ video {
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 57.25rem) {
