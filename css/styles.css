@@ -23,6 +23,7 @@ html {
   padding: 0 0 0 48px;
   overflow: hidden;
   list-style: none;
+  font-size: 24px;
 }
 
 .wrapper {
