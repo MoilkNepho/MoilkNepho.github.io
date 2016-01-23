@@ -22,7 +22,7 @@
   }
 
   .com {
-    color: #999988;
+    color: red;
   }
 
   .typ {
@@ -71,7 +71,7 @@
 }
 @media print, projection {
   .str {
-    color: #006600;
+    color: Darkorange;
   }
 
   .kwd {
