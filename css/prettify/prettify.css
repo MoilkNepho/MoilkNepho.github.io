@@ -14,11 +14,11 @@
 
 @media screen {
   .str {
-    color: #dd1144;
+    color: #aea73a;
   }
 
   .kwd {
-    color: black;
+    color: #923631;
   }
 
   .com {
@@ -34,15 +34,15 @@
   }
 
   .pun {
-    color: black;
+    color: #882d79;
   }
 
   .opn {
-    color: black;
+    color: #732652;
   }
 
   .clo {
-    color: black;
+    color: #c45bc8;
   }
 
   .tag {
