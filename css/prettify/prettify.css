@@ -24,13 +24,13 @@
   .com {
     color: silver;
   }
-
+/*类名*/
   .typ {
-    color: white;
+    color: blue;
   }
 
   .lit {
-    color: #445588;
+    color: white;
   }
 
   .pun {
