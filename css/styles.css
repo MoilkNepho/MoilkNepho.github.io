@@ -20,6 +20,7 @@ html {
 
 .myImg {
   display: block;
+  max-width: 700px
 }
 
 .myImg img {
