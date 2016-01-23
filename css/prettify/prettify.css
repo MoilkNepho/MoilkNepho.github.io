@@ -13,18 +13,19 @@
 }
 
 @media screen {
+  /*字符串*/
   .str {
-    color: white;
+    color: orange;
   }
 
   .kwd {
-    color: #923631;
+    color: white;
   }
-/*注释*/
+  /*注释*/
   .com {
     color: silver;
   }
-/*类名*/
+  /*类名*/
   .typ {
     color: blue;
   }
