@@ -17,9 +17,9 @@
   .str {
     color: orange;
   }
-
+/*public、void等*/
   .kwd {
-    color: white;
+    color: orangered;
   }
   /*注释*/
   .com {
@@ -31,7 +31,7 @@
   }
 
   .lit {
-    color: tan;
+    color: white;
   }
 
   .pun {
