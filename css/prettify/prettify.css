@@ -14,7 +14,7 @@
 
 @media screen {
   .str {
-    color: #aea73a;
+    color: white;
   }
 
   .kwd {
@@ -30,7 +30,7 @@
   }
 
   .lit {
-    color: white;
+    color: tan;
   }
 
   .pun {
