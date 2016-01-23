@@ -13,15 +13,7 @@
 
   <link href="http://duras.wang/css/styles.css" rel="stylesheet" type="text/css">
   <link href="http://duras.wang/img/favicon.ico" rel="shortcut icon">
-  <!--官方css引入-->
   <link href="http://duras.wang/css/prettify/prettify.css" rel="stylesheet">
-  <script type="text/javascript" src="http://duras.wang/css/prettify/prettify.js"></script>
-  <script type="text/javascript">
-    $(function(){
-      $('pre').addClass("prettyprint");
-      prettyPrint();
-    });
-  </script>
 </head>
 <body>
   <div class="sidebar">
@@ -52,6 +44,15 @@
     ga('create', 'UA-33073396-1', 'tybenz.com');
     ga('send', 'pageview');
 
+  </script>
+  <!--官方JS引入-->
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+  <script type="text/javascript" src="http://duras.wang/css/prettify/prettify.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+      window.prettyPrint && prettyPrint();
+    });
   </script>
 </body>
 </html>
