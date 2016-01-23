@@ -189,8 +189,6 @@ video {
   display: block;
   float: left;
   height: 32px;
-  border: 1px,solid,black
-  border-radius: 4px;
 }
 
 .nav a {
