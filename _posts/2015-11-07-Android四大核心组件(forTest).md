@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android四大核心组件
+title: Android四大核心组件(forTest)
 tags:  [Android]
 categories: [Android开发]
 author: Moilk
