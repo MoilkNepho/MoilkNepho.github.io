@@ -116,6 +116,7 @@ blockquote {
 }
 
 pre {
+  display: block;
   font-size: 0.9em;
   margin: 2em 0;
   padding: 0 1em;
