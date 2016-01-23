@@ -20,6 +20,8 @@
   /*public、void等*/
   .kwd {
     color: orangered;
+    font-weight: bold;
+
   }
   /*注释*/
   .com {
@@ -28,12 +30,13 @@
   /*类名*/
   .typ {
     color: blue;
+    font-weight: bold;
   }
   /*@override等*/
   .lit {
     color: mediumseagreen;
   }
-/*操作符*/
+  /*操作符*/
   .pun {
     color: red;
   }
