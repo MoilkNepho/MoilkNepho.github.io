@@ -262,20 +262,10 @@ video {
     max-width: 100%;
     margin: 4rem auto 0;
   }
-
-  .myimg img {
-    display: block;
-    max-width: 100%;
-    margin: 4rem auto 0;
-  }
 }
 
 @media screen and (max-width: 33.125rem) {
   .logo img {
     max-width: 60%;
-  }
-
-  .myimg img{
-    max-width: 30%;
   }
 }
