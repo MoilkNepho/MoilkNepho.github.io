@@ -33,13 +33,13 @@
   .lit {
     color: mediumseagreen;
   }
-
+/*操作符*/
   .pun {
-    color: white;
+    color: red;
   }
 
   .opn {
-    color: #732652;
+    color: white;
   }
 
   .clo {
