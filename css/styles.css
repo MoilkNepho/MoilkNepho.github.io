@@ -6,6 +6,7 @@ html {
 .sidebar {
   padding-top: 20px;
   position: fixed;
+  border-right: 1px solid black;
 }
 
 .logo {
