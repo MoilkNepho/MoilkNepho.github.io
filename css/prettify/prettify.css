@@ -39,7 +39,7 @@
   }
 
   .opn {
-    color: white;
+    color: #732652;
   }
 
   .clo {
@@ -63,7 +63,7 @@
   }
 
   .var {
-    color: teal;
+    color: firebrick  ;
   }
 
   .fun {
