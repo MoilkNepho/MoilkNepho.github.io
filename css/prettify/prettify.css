@@ -9,7 +9,7 @@
 }
 
 .pln {
-  color: #333333;
+  color: black;
 }
 
 @media screen {
@@ -18,7 +18,7 @@
   }
 
   .kwd {
-    color: #333333;
+    color: black;
   }
 
   .com {
@@ -34,15 +34,15 @@
   }
 
   .pun {
-    color: #333333;
+    color: black;
   }
 
   .opn {
-    color: #333333;
+    color: black;
   }
 
   .clo {
-    color: #333333;
+    color: black;
   }
 
   .tag {
@@ -58,7 +58,7 @@
   }
 
   .dec {
-    color: #333333;
+    color: black;
   }
 
   .var {
