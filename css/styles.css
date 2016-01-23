@@ -121,9 +121,11 @@ pre {
   padding: 20px 20px;
   margin-bottom: 10px;
   font-size: 0.9em;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid black;
   border-radius: 4px;
-  font-family: Consolas, Menlo, Monaco;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 video {
