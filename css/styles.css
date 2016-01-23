@@ -53,7 +53,7 @@ a {
   max-width: 450px;
   padding: 20px 20px;
   margin-bottom: 10px;
-  border: 4px double black;
+  border: 2px solid black;
   border-radius: 4px;
 }
 
