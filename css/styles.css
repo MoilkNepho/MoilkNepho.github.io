@@ -18,12 +18,12 @@ html {
   height: 100%;
 }
 
-.myImg {
+.myimg {
   display: block;
   max-width: 700px
 }
 
-.myImg img {
+.myimg img {
   width: 100%;
   height: 100%;
 }
@@ -264,7 +264,7 @@ video {
     margin: 4rem auto 0;
   }
 
-  .myImg img {
+  .myimg img {
     display: block;
     max-width: 100%;
     margin: 4rem auto 0;
@@ -276,7 +276,7 @@ video {
     max-width: 60%;
   }
 
-  .myImg img{
-    max-width: 60%;
+  .myimg img{
+    max-width: 400px;
   }
 }
