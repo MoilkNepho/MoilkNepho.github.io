@@ -17,7 +17,7 @@
   .str {
     color: orange;
   }
-/*public、void等*/
+  /*public、void等*/
   .kwd {
     color: orangered;
   }
@@ -29,13 +29,13 @@
   .typ {
     color: blue;
   }
-
+  /*@override等*/
   .lit {
-    color: white;
+    color: mediumseagreen;
   }
 
   .pun {
-    color: #882d79;
+    color: white;
   }
 
   .opn {
