@@ -20,13 +20,13 @@
   .kwd {
     color: #923631;
   }
-
+/*注释*/
   .com {
-    color: red;
+    color: khaki;
   }
 
   .typ {
-    color: #445588;
+    color: green;
   }
 
   .lit {
