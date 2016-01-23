@@ -35,7 +35,7 @@ html {
 .wrapper h1 {
   margin-top: 0;
   padding: 50px 0 20px 0;
-  text-transform: lowercase;
+  font-family: 
 }
 
 body {
@@ -50,50 +50,16 @@ a {
 .post-link {
   text-transform: lowercase;
   display: block;
-  max-width: 400px;
+  max-width: 450px;
   padding: 20px 20px;
   margin-bottom: 10px;
-  border: 2px dotted red;
+  border: 2px double black;
   border-radius: 4px;
 }
 
 .post-link:hover {
-  background: red;
+  background: black;
   color: white;
-  border: 2px dotted white;
-}
-
-.post-link:nth-child(4n+1) {
-  border-color: aqua;
-  border-style: outset;
-}
-
-.post-link:nth-child(4n+1):hover {
-  background: aqua;
-  color: inherit;
-  border: 2px outset white;
-}
-
-.post-link:nth-child(4n+2) {
-  border-color: magenta;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 0 0 1px white, 0 0 0 2px magenta;
-}
-
-.post-link:nth-child(4n+2):hover {
-  background: magenta;
-  color: white;
-}
-
-.post-link:nth-child(4n+3) {
-  border-color: yellow;
-  border-style: groove;
-}
-
-.post-link:nth-child(4n+3):hover {
-  background: yellow;
-  color: inherit;
 }
 
 .post-body {
