@@ -15,51 +15,51 @@
 @media screen {
   /*字符串*/
   .str {
-    color: orange;
+    color: gray;
   }
   /*public、void等*/
   .kwd {
-    color: orangered;
+    color: black;
     font-weight: bold;
 
   }
   /*注释*/
   .com {
-    color: silver;
+    color: gray;
     font-style: italic;
   }
   /*类名*/
   .typ {
-    color: blue;
+    color: black;
     font-weight: bold;
   }
   /*@override等*/
   .lit {
-    color: mediumseagreen;
+    color: gray;
   }
   /*操作符*/
   .pun {
-    color: red;
+    color: black;
   }
 
   .opn {
-    color: #732652;
+    color: black;
   }
 
   .clo {
-    color: #c45bc8;
+    color: black;
   }
 
   .tag {
-    color: navy;
+    color: black;
   }
 
   .atn {
-    color: teal;
+    color: black;
   }
 
   .atv {
-    color: #dd1144;
+    color: black;
   }
 
   .dec {
@@ -67,11 +67,11 @@
   }
 
   .var {
-    color: firebrick  ;
+    color: black  ;
   }
 
   .fun {
-    color: #990000;
+    color: black;
   }
 }
 @media print, projection {
