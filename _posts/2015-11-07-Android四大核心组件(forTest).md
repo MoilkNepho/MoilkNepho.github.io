@@ -29,7 +29,6 @@ excerpt: "Android开发基础篇"
   * 开启另一个Activity:
 
 ```java
-
 Intent intent = new Intent(MainActivity.this, Main2Activity.class);
 startActivity(intent);
 ```
@@ -41,7 +40,6 @@ startActivity(intent);
   * 简单数据
 
 ```java
-
 intent.putExtra("text","简单数据传递");   // 在传出数据的Activity中
 ...
 getIntent().getStringExtra("text"); // 在传入数据的Activity中，返回对应类型
@@ -50,7 +48,6 @@ getIntent().getStringExtra("text"); // 在传入数据的Activity中，返回对
   * 复杂数据
 
 ```java
-
 // 在传出数据的Activity中
 Bundle bundle=new Bundle();
 bundle.putString("text","复杂数据传输");
@@ -59,7 +56,6 @@ intent.putExtras(bundle);
 // 在传入数据的Activity中
 Bundle bundle=getIntent().getExtras();
 tvOut.setText(bundle.getString("text"));
-
 ```
 
   * 回传

@@ -30,8 +30,8 @@
   }
   /*类名*/
   .typ {
-    color: red;
-    font-weight: normal;
+    color: black;
+    font-weight: 600;
   }
   /*@override等*/
   .lit {
