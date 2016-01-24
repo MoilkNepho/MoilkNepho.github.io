@@ -43,35 +43,35 @@
   }
 
   .opn {
-    color: black;
+    color: green;
   }
 
   .clo {
-    color: black;
+    color: blue;
   }
 
   .tag {
-    color: black;
+    color: red;
   }
 
   .atn {
-    color: black;
+    color: olive;
   }
 
   .atv {
-    color: black;
+    color: orange;
   }
 
   .dec {
-    color: black;
+    color: navy;
   }
 
   .var {
-    color: black  ;
+    color: lime  ;
   }
 
   .fun {
-    color: black;
+    color: tomato;
   }
 }
 @media print, projection {
