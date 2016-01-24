@@ -51,7 +51,7 @@
   }
 
   .tag {
-    color: red;
+    color: black;
     font-weight: bold;
   }
 
@@ -60,7 +60,8 @@
   }
 
   .atv {
-    color: orange;
+    color: gray;
+    font-style: italic;
   }
 
   .dec {
