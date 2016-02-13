@@ -52,11 +52,10 @@ a {
 	margin-right: auto;
 	font-size: 16px;
 	color: black;
-	.title{
-		text-align: center;
-		font-size: 100%;
-		font-weight:bold;
-	}
+}
+.posts-title{
+	text-align: center;
+	font-weight:bold;
 }
 
 .post-link {
