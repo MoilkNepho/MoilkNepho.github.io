@@ -32,8 +32,7 @@ html {
 }
 
 .nav {
-	margin-left: 100px;
-	padding: 0 0 0 48px;
+	padding: 0 0 0 72px;
 	overflow: hidden;
 	list-style: none;
 	font-size: 20px;
@@ -51,7 +50,6 @@ a {
 .posts{
 	margin-left: auto;
 	margin-right: auto;
-	widows: 70%;
 	font-size: 16px;
 	color: black;
 }
@@ -64,6 +62,9 @@ a {
 	margin-bottom: 10px;
 	border: 2px solid black;
 	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
 	color:black;
 }
 

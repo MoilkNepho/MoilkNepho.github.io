@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<!--<h1><marquee scrolldelay="60">otter pop - the world's greatest jekyll theme</marquee></h1>-->
-<h1>Moilker橱窗 - 人类的梦想是不会终结的！</h1>
 <div class="posts">
+	<h1>Moilker橱窗 - 人类的梦想是不会终结的！</h1>
 	{% for post in site.posts %}{% if post.hidden != true %}<a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a>
 	{% endif %}{% endfor %}
 </div>
