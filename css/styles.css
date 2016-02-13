@@ -10,6 +10,7 @@ html {
 .col-content {
 	font-size: 13px;
 	padding-right: 0px;
+	padding-left: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	width:70%;
@@ -40,7 +41,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 10px 0px 10px 20px;
+	padding: 10px 0px 10px 0px;
 }
 
 a {
@@ -280,15 +281,18 @@ video {
 	}
 
 	.col-content {
-		margin-left: auto;
-		margin-right: auto;
 		max-width: 52rem;
+		width:100%;
 	}
 
 	.col-content h1 {
 		margin-top: 0;
 		padding-top: 10px;
 		text-align: center;
+	}
+
+	.post-link {
+		width: 100%;
 	}
 
 	.nav {
@@ -322,13 +326,27 @@ video {
 
 	.logo img {
 		display: block;
-		max-width: 100%;
+		max-width: 50%;
 		margin: 4rem auto 0;
 	}
 }
 
 @media screen and (max-width: 33.125rem) {
 	.logo img {
-		max-width: 60%;
+		max-width: 30%;
+	}
+		.post-link {
+		width: 100%;
+	}
+
+		.col-content {
+		max-width: 31rem;
+		width:100%;
+	}
+		.col-sidebar {
+		position: static;
+		margin: auto;
+		max-width: 31rem;
+		padding-right: 0px;
 	}
 }
