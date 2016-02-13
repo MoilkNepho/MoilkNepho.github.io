@@ -127,26 +127,72 @@ pre {
 }
 
 table {
-	font-family: verdana,arial,sans-serif;
-	font-size:11px;
-	color:#333333;
-	border-width: 1px;
-	border-color: #666666;
-	border-collapse: collapse;
+	border-spacing: 0;
+	font: normal .9em/1.4 "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	margin: 1em auto;
+	text-align: left;
 }
-table th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #666666;
-	background-color: #dedede;
+#itsthetable {
+	background: white;
 }
-table td {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #666666;
-	background-color: #ffffff;
+table caption {
+	font: italic normal 1.4em/1 "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: .5em 1em;
+	text-align: right;
+}
+tbody th,
+tbody tr th,
+tbody tr td {
+	background: #76bdff url(bg_tr.gif) repeat-x;
+	border-bottom: 1px solid #676767;
+	color: black;
+	padding: .34em  .5em;
+}		
+tbody tr.odd th,
+tbody tr.odd td {
+	background: #ff71e3 url(bg_tr_odd.gif) repeat-x;
+	border-bottom: 1px solid #676767;
+	color: black;
+}		
+tbody tr:hover td,
+tbody tr:hover th {
+	background: #76bdff;
+	border-bottom: 1px solid #676767;
+}
+tbody tr:hover.odd td,
+tbody tr:hover.odd th {
+	background: #ff71e3;
+	border-bottom: 1px solid #676767;
+}
+thead th,
+thead td,
+tfoot th,
+tfoot td {
+	background: #81215e url(bg_h_f.gif) repeat-x;
+	color: white;
+	line-height: normal;
+	padding: .6em;
+}
+table a:link {
+	background: transparent;
+	border-bottom: 1px dotted #1a1a1a;
+	color: #1a1a1a;
+	padding: 2px;
+	text-decoration: none;
+}
+table a:visited {
+	text-decoration: line-through;
+	border: none;
+}
+table a:hover,
+table a:focus {
+	background: white;
+	border-bottom: 1px solid #1a1a1a;
+	padding: 2px;
+}
+tbody th a:link,
+tbody th a:visited {
+	font-weight:bold;
 }
 
 video {
