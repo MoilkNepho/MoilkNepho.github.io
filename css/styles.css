@@ -145,25 +145,17 @@ table {
 	font-family: verdana,arial,sans-serif;
 	font-size:11px;
 	color:#ffffff;
-	border-radius: 3px;
-	border-width: 1px;
-	border-color: #ffffff;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black
 	border-collapse: collapse;
 }
 table th {
-	border-width: 1px;
-	padding: 8px;
-	border-style: solid;
-	border-color: #ffffff;
-	background-color: #575757;
+	text-align: center;
+	border-bottom: 1px solid black;
 }
 table td {
-	color: #000000;
-	border-width: 1px;
+	color: black;
 	padding: 8px;
-	border-style: solid;
-	border-color: #ffffff;
-	background-color: #ffffff;
 }
 
 video {
@@ -296,6 +288,7 @@ video {
 	}
 
 	.nav {
+		font-size: 42px;
 		position: absolute;
 		top: 0;
 		left: 0;
