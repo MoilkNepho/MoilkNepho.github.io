@@ -224,6 +224,36 @@ video {
 	font-weight: bold;
 }
 
+.footer {
+	text-align: center;
+		.cent{
+		padding-bottom:10px;
+	}
+	.totop{
+  		display: none;
+
+		  position: fixed;
+		  height: 40px;
+		  width: 40px;
+		  right: 20px;
+		  bottom: 20px;
+
+
+		  line-height: 40px;
+		  text-align: center;
+		  color: $white;
+
+		  border-radius: 7px;
+		  background-color: $gray-light;
+
+		  cursor: pointer;
+
+		  &:hover{
+		    background-color: $gray;
+		  }
+	}
+}
+
 @media screen and (max-width: 57.25rem) {
 	.sidebar {
 		position: static;
