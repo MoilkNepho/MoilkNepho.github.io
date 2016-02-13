@@ -48,14 +48,15 @@ a {
 }
 
 .posts{
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 16px;
-	color: black;
-	
+	{
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 16px;
+		color: black;
+	}
 	.title{
 		text-align: center;
-		font-size: 100%
+		font-size: 100%;
 		font-weight:bold;
 	}
 }

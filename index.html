@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="posts">
-	<div class="title">Moilker橱窗 - 人类的梦想是不会终结的！</div>
+	<h1 class="title">Moilker橱窗 - 人类的梦想是不会终结的！</h1>
 	{% for post in site.posts %}{% if post.hidden != true %}<a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a>
 	{% endif %}{% endfor %}
 </div>
