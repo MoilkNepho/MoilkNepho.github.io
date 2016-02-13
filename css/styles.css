@@ -126,7 +126,7 @@ pre {
 	word-wrap: break-word;
 }
 
-table.gridtable {
+table {
 	font-family: verdana,arial,sans-serif;
 	font-size:11px;
 	color:#333333;
@@ -134,14 +134,14 @@ table.gridtable {
 	border-color: #666666;
 	border-collapse: collapse;
 }
-table.gridtable th {
+table th {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
 	border-color: #666666;
 	background-color: #dedede;
 }
-table.gridtable td {
+table td {
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
