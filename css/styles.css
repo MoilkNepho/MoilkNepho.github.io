@@ -127,72 +127,110 @@ pre {
 }
 
 table {
-	border-spacing: 0;
-	font: normal .9em/1.4 "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	margin: 1em auto;
+	font: 11px verdana,verdana, arial;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
 	text-align: left;
+	color: #333;
+	line-height: 19px;
 }
-#itsthetable {
-	background: white;
+
+caption {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: left;
+	text-transform: uppercase;
 }
-table caption {
-	font: italic normal 1.4em/1 "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin: .5em 1em;
-	text-align: right;
+
+td {
+	margin: 0;
+	padding: 20px 10px;
+	border: 1px dotted #f5f5f5;
 }
-tbody th,
-tbody tr th,
-tbody tr td {
-	background: #76bdff url(bg_tr.gif) repeat-x;
-	border-bottom: 1px solid #676767;
-	color: black;
-	padding: .34em  .5em;
-}		
-tbody tr.odd th,
-tbody tr.odd td {
-	background: #ff71e3 url(bg_tr_odd.gif) repeat-x;
-	border-bottom: 1px solid #676767;
-	color: black;
-}		
-tbody tr:hover td,
-tbody tr:hover th {
-	background: #76bdff;
-	border-bottom: 1px solid #676767;
+
+
+th {
+	font-weight: normal;
+	text-transform: uppercase;
 }
-tbody tr:hover.odd td,
-tbody tr:hover.odd th {
-	background: #ff71e3;
-	border-bottom: 1px solid #676767;
+
+thead tr th {
+	background-color: #575757;
+	padding:  20px 10px;
+	color: #fff;
+	font-weight: bold;
+	border-right: 2px solid #333;
+	text-transform: uppercase;
+	text-align:center;
 }
-thead th,
-thead td,
-tfoot th,
-tfoot td {
-	background: #81215e url(bg_h_f.gif) repeat-x;
-	color: white;
-	line-height: normal;
-	padding: .6em;
+
+tfoot tr th, tfoot tr td {
+	background-color: transparent;
+	padding:  20px 10px;
+	color: #ccc;
+	border-top: 1px solid #ccc;
 }
-table a:link {
-	background: transparent;
-	border-bottom: 1px dotted #1a1a1a;
-	color: #1a1a1a;
-	padding: 2px;
+
+tbody tr th {
+	padding: 20px 10px;
+	border-bottom: 1px dotted #fafafa;
+}
+
+tr { 
+	background-color: #FBFDF6;
+}
+tr.odd {
+	background-color: #EDF7DC;
+}
+
+tr:hover {
+}
+
+tr:hover td, tr:hover td a, tr:hover th a {
+	color: #a10000;
+}
+
+td:hover {
+}
+
+tr:hover th a:hover {
+	background-color: #F7FBEF;
+	border-bottom: 2px solid #86C200;
+}
+
+table a {
+	color: #608117;
+	background-image: none;
 	text-decoration: none;
-}
-table a:visited {
-	text-decoration: line-through;
-	border: none;
-}
-table a:hover,
-table a:focus {
-	background: white;
-	border-bottom: 1px solid #1a1a1a;
+	border-bottom: 1px dotted #8A8F95;
 	padding: 2px;
+	padding-right: 12px; background: transparent url(http://www.alvit.de/vf/csstablegallery/link.gif) no-repeat 100% 50%;
 }
-tbody th a:link,
-tbody th a:visited {
-	font-weight:bold;
+
+table a:hover {
+	color: #BBC4CD;
+	background-image: none;
+	text-decoration: none;
+	border-bottom: 3px solid #333;
+	padding: 2px;
+	padding-right: 12px; color: #A2A2A2; background: transparent url(http://www.alvit.de/vf/csstablegallery/link.gif) no-repeat 100% 50%;
+}
+
+table a:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+	text-decoration: none;
+	padding-right: 12px; color: #A2A2A2; background: transparent url(http://www.alvit.de/vf/csstablegallery/visitedLink.gif) no-repeat 100% 50%;
+}
+
+table a:visited:hover {
+	background-image: none;
+	text-decoration: none;
+	border-bottom: 3px solid #333;
+	padding: 2px;
+	padding-right: 12px; color: #A2A2A2; background: transparent url(http://www.alvit.de/vf/csstablegallery/visitedLink.gif) no-repeat 100% 50%;
 }
 
 video {
