@@ -2,8 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  {% include sidebar.html %}
-  <div class="col-md-9 col-content">
+  <div class="col-md-2 col-sidebar">
+    {% include sidebar.html %}
+  </div>
+  <div class="col-md-10 col-content">
     {{ content }}
   </div>
 
