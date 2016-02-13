@@ -2,12 +2,14 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<div class="col-md-2 col-sidebar">
-    {% include sidebar.html %}
-  </div>
-  <div class="col-md-9 col-content">
-    {{ content }}
-  </div>
+	<div class="container page-content">
+		<div class="col-md-2 col-sidebar">
+			{% include sidebar.html %}
+		</div>
+		<div class="col-md-9 col-content">
+			{{ content }}
+		</div>
+	</div>
 
 </body>
 {% include footer.html %}
