@@ -27,6 +27,8 @@ html {
 
 .wrapper {
 	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .wrapper h1 {
@@ -223,31 +225,31 @@ video {
 
 .footer {
 	text-align: center;
-		.cent{
+	.cent{
 		padding-bottom:10px;
 	}
 	.totop{
-  		display: none;
+		display: none;
 
-		  position: fixed;
-		  height: 40px;
-		  width: 40px;
-		  right: 20px;
-		  bottom: 20px;
+		position: fixed;
+		height: 40px;
+		width: 40px;
+		right: 20px;
+		bottom: 20px;
 
 
-		  line-height: 40px;
-		  text-align: center;
-		  color: $white;
+		line-height: 40px;
+		text-align: center;
+		color: $white;
 
-		  border-radius: 7px;
-		  background-color: $gray-light;
+		border-radius: 7px;
+		background-color: $gray-light;
 
-		  cursor: pointer;
+		cursor: pointer;
 
-		  &:hover{
-		    background-color: $gray;
-		  }
+		&:hover{
+			background-color: $gray;
+		}
 	}
 }
 
