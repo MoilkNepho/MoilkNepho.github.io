@@ -143,6 +143,7 @@ table th {
 	background-color: #575757;
 }
 table td {
+	color: #000000;
 	border-width: 1px;
 	padding: 8px;
 	border-style: solid;
