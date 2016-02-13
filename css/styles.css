@@ -31,7 +31,7 @@ html {
 }
 
 .nav {
-	margin: 40px 0 0;
+	margin-left: 30px;
 	padding: 0 0 0 48px;
 	overflow: hidden;
 	list-style: none;
@@ -55,6 +55,7 @@ a {
 	margin-bottom: 10px;
 	border: 2px solid black;
 	border-radius: 4px;
+	color:black;
 }
 
 .post-link:hover {
