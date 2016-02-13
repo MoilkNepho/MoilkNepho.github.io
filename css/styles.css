@@ -144,10 +144,9 @@ pre {
 table {
 	font-family: verdana,arial,sans-serif;
 	font-size:11px;
-	color:#ffffff;
+	color:black;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black
-	border-collapse: collapse;
 }
 table th {
 	text-align: center;
