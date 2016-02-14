@@ -299,10 +299,6 @@ video {
 		text-align: center;
 	}
 
-	.logo img {
-		display: none;
-	}
-
 	.post-link {
 		width: 100%;
 	}
@@ -338,9 +334,7 @@ video {
 	}
 
 	.logo img {
-		display: block;
-		max-width: 50%;
-		margin: 4rem auto 0;
+		display: none;
 	}
 }
 
