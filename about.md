@@ -20,4 +20,4 @@ title: 关于
 
 ************************
 > 人类的梦想是永远不会终结的！  
--------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)
+-------> 出自 海贼王 ![sina](http://duras.wang/img/px16/onepiece.png)
