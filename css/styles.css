@@ -247,8 +247,8 @@ video {
 	.cent{
 		padding-bottom:10px;
 	}
-	hr{
-		border-top: 1px solid black;
+	.hr{
+		border-top: 1px solid lightgrey;
 	}
 	.totop{
 		display: none;
