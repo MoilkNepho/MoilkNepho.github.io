@@ -226,6 +226,10 @@ video {
 	background-image:url(http://duras.wang/img/github.png);
 }
 
+.icon.home {
+	background-image:url(http://duras.wang/img/home.png);
+}
+
 .nav a {
 	margin-right: 32px;
 	margin-bottom: 32px;
@@ -243,6 +247,10 @@ video {
 	color: black;
 	font-weight: bold;
 	font-style: normal;
+}
+
+.notfound {
+	text-align: center;
 }
 
 .footer {
