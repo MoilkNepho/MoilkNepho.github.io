@@ -299,6 +299,10 @@ video {
 		text-align: center;
 	}
 
+	.logo img {
+		display: none;
+	}
+
 	.post-link {
 		width: 100%;
 	}
@@ -341,9 +345,6 @@ video {
 }
 
 @media screen and (max-width: 33.125rem) {
-	.logo img {
-		max-width: 48%;
-	}
 	.post-link {
 		width: 100%;
 	}
