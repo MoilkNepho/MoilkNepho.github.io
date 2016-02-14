@@ -9,7 +9,7 @@ html {
 
 .col-content {
 	padding-right: 0px;
-	padding-left: 0px;
+	padding-left: 36px;
 	margin-left: auto;
 	margin-right: auto;
 	width:70%;
@@ -284,6 +284,7 @@ video {
 	}
 
 	.col-content {
+		padding-left: 0px;
 		max-width: 52rem;
 		width:100%;
 	}
