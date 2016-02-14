@@ -286,7 +286,7 @@ video {
 	}
 
 	.nav {
-		font-size: 24px;
+		font-size: 18px;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -316,6 +316,7 @@ video {
 	}
 
 	.logo img {
+		padding-top: 32px;
 		display: block;
 		max-width: 50%;
 		margin: 4rem auto 0;
