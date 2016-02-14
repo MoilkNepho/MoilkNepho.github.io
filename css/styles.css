@@ -202,8 +202,8 @@ video {
 	background-size: 100% 100%;
 }
 
-.icon.doc {
-	background-image:url(http://duras.wang/img/doc.png);
+.icon.blog {
+	background-image:url(http://duras.wang/img/blog.png);
 }
 
 .icon.info {
@@ -248,6 +248,7 @@ video {
 .footer {
 	border-top: 1px solid lightgrey;
 	font-size: 16px;
+	padding-top: 16px;
 	text-align: center;
 	.cent{
 		padding-bottom:10px;
