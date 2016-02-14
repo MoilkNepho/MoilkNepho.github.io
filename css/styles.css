@@ -3,6 +3,10 @@ html {
 	font-family: monospace;
 }
 
+.container{
+	padding-bottom: 36px;
+}
+
 .col-sidebar {
 	padding-top: 20px;
 }
@@ -243,7 +247,6 @@ video {
 
 .footer {
 	border-top: 1px solid lightgrey;
-	padding-top: 36px;
 	font-size: 16px;
 	text-align: center;
 	.cent{
