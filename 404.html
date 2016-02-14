@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+<head>
+	<meta charset="UTF-8">
+	<title>404 NOT FOUND</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="apple-touch-img/logo-precomposed" href="{{site.baseurl}}/img/logo.png">
+	<link rel="apple-touch-img/logo" href="{{site.baseurl}}/img/logo.png">
+	<link rel="apple-touch-img/logo" sizes="72x72" href="{{site.baseurl}}/img/logo.png">
+	<link rel="apple-touch-img/logo" sizes="114x114" href="{{site.baseurl}}/img/logo.png">
+
+	<link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon">
+	<link href="{{site.baseurl}}/css/styles.css" rel="stylesheet" type="text/css">
+</head>
 <body>
 	<h1 class="footer">404</h1>
 	<h2 class="footer">NOT FOUND</h2>
 	<hr/>
 </body>
-{% include footer.html %}
+<footer>
+	<div class="footer">
+		<div class="cent">
+			<div><a href="http://duras.wang"><img src="{{ site.baseurl}}/img/moilkLogo.png" alt="duras.wang"/></a></div>
+			<div>情人节快乐！</div>
+			<div id="timer" style="font:11px tahoma;height:10px;"></div>
+		</div>
+	</div>
+	<script>
+		setInterval("timeStr=new Date().toLocaleString();timer.innerText=timeStr;",1000)
+	</script>
+</footer>
 </html>
