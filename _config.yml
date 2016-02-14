@@ -19,5 +19,3 @@ highlighter: pygments
 # 分页设置
 paginate: 10
 paginate_path: "page/:num"
-
-cebus:"情人节快乐！"
