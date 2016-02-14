@@ -44,7 +44,11 @@ body {
 }
 
 a {
-	color: inherit;
+	color: green;
+	text-decoration: underline;
+}
+a:hover{
+	color: black;
 }
 
 .posts{
@@ -142,6 +146,8 @@ pre {
 	word-wrap: break-word;
 }
 
+hr {border-top: 1px dashed black; }
+
 table {
 	font-family: consolas,arial,sans-serif;
 	font-size:14px;
@@ -150,6 +156,7 @@ table {
 	border-bottom: 2px solid black
 }
 table th {
+	vertical-align: center;
 	text-align: center;
 	border-bottom: 1px solid black;
 }
@@ -329,15 +336,15 @@ video {
 	.logo img {
 		max-width: 48%;
 	}
-		.post-link {
+	.post-link {
 		width: 100%;
 	}
 
-		.col-content {
+	.col-content {
 		max-width: 31rem;
 		width:94%;
 	}
-		.col-sidebar {
+	.col-sidebar {
 		position: static;
 		margin: auto;
 		max-width: 31rem;
