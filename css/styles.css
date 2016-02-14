@@ -242,14 +242,13 @@ video {
 }
 
 .footer {
+	border-top: 1px solid lightgrey;
 	font-size: 16px;
 	text-align: center;
 	.cent{
 		padding-bottom:10px;
 	}
-	.hr{
-		border-top: 1px solid lightgrey;
-	}
+	
 	.totop{
 		display: none;
 
