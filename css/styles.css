@@ -8,7 +8,6 @@ html {
 }
 
 .col-content {
-	font-size: 13px;
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-left: auto;
@@ -143,7 +142,7 @@ pre {
 
 table {
 	font-family: verdana,arial,sans-serif;
-	font-size:11px;
+	font-size:14px;
 	color:black;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black
@@ -287,7 +286,7 @@ video {
 	}
 
 	.nav {
-		font-size: 42px;
+		font-size: 24px;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -295,7 +294,7 @@ video {
 		padding: 5px;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		width: 100%;
+		width: 94%;
 		height: 3rem;
 	}
 
@@ -325,7 +324,7 @@ video {
 
 @media screen and (max-width: 33.125rem) {
 	.logo img {
-		max-width: 30%;
+		max-width: 48%;
 	}
 		.post-link {
 		width: 100%;
@@ -333,7 +332,7 @@ video {
 
 		.col-content {
 		max-width: 31rem;
-		width:100%;
+		width:94%;
 	}
 		.col-sidebar {
 		position: static;
