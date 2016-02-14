@@ -243,12 +243,13 @@ video {
 
 .footer {
 	border-top: 1px solid lightgrey;
+	padding-top: 36px;
 	font-size: 16px;
 	text-align: center;
 	.cent{
 		padding-bottom:10px;
 	}
-	
+
 	.totop{
 		display: none;
 
