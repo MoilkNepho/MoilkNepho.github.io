@@ -8,7 +8,10 @@ title: 关于
 英文名Moilk，是牛奶加鸡蛋的意思
 
 * **职业**  
-学生，2013-
+本科生，2013-
+
+* **兴趣爱好**  
+物联网+Android+Linux+Arduino+海贼王+...,爱设计，爱思考，而且还是单身哦![smile](http://duras.wang/img/px16/smile.png) 
 
 ### --------> ![联系](http://duras.wang/img/myLogo/contact.png) 联系我
 ![email](http://duras.wang/img/px16/email.png) 邮箱: moilk@qq.com  
