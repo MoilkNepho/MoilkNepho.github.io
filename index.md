@@ -27,4 +27,4 @@ while(!love.isRepay()){
 eyes.close();
 story.release();
 ```
-![日历](http://duras.wang/img/rili.png)更新时间： 2016-02-14
+![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14
