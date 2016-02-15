@@ -25,7 +25,7 @@ title: 关于
 ![sina](http://duras.wang/img/px16/sina.png) 新浪微博: [Moilk](http://weibo.com/moilk/)  
 
 ************************
-> 人类的梦想是永远不会终结的！  
+> 人类的梦想是不会终结的！  
 -------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)
 
 ![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14
