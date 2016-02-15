@@ -4,7 +4,7 @@ title: 关于
 ---
 ### --------> ![狮子座](http://duras.wang/img/myLogo/lion.png) 关于我  
 
-  ![牛奶加鸡蛋](http://duras.wang/img/px256/milkegg.png)
+  ![牛奶加鸡蛋](http://duras.wang/img/others/milkegg.png)
 
 * **Moilk**  
 是牛奶加鸡蛋的意思哦.  
@@ -25,3 +25,5 @@ title: 关于
 ************************
 > 人类的梦想是永远不会终结的！  
 -------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)
+
+![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14

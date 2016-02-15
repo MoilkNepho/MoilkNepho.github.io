@@ -17,14 +17,7 @@ title: Moilk主页
 
 
 ************************
+> 人类的梦想是永远不会终结的！  
+-------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)
 
-```java
-while(!love.isRepay()){
-	stars.stopSunning();
-	lies.hold();
-	love.continue();
-}
-eyes.close();
-story.release();
-```
 ![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14
