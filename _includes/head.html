@@ -2,6 +2,10 @@
 	<meta charset="UTF-8">
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}</title>
 
+	<meta name="keywords" content="{{ page.title }},{% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %},{{ site.keywords }}" />
+	<meta name="description" content="{{ page.title }}, {% for category in page.categories %}{{ category }},{% endfor %} {% for tag in page.tags %}{{ tag }},{% endfor %} {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
+
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<!-- 百度认证 -->
