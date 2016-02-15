@@ -5,7 +5,7 @@ title: 关于
 ### --------> ![狮子座](http://duras.wang/img/myLogo/lion.png) 关于我
 
 * **Moilk**  
-英文名Moilk，是牛奶加鸡蛋的意思
+是牛奶加鸡蛋的意思哦.
 
 * **职业**  
 本科生，2013-
