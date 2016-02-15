@@ -4,7 +4,9 @@ title: 关于
 ---
 ### --------> ![狮子座](http://duras.wang/img/myLogo/lion.png) 关于我  
 
-  ![牛奶加鸡蛋](http://duras.wang/img/others/milkegg.png)
+
+* **形象**  
+  ![牛奶加鸡蛋](http://duras.wang/img/others/milkegg.png)  
 
 * **Moilk**  
 是牛奶加鸡蛋的意思哦.  
