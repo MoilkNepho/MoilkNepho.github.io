@@ -112,22 +112,6 @@ a:hover{
 	max-width: 100%;
 }
 
-.post-body a:nth-of-type(4n) {
-	color: red;
-}
-
-.post-body a:nth-of-type(4n+1) {
-	color: magenta;
-}
-
-.post-body a:nth-of-type(4n+2) {
-	color: blue;
-}
-
-.post-body a:nth-of-type(4n+3) {
-	color: green;
-}
-
 blockquote {
 	font-family: consolas,arial,sans-serif;
 	font-size: 14px;
