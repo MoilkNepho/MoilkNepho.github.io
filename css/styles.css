@@ -273,7 +273,7 @@ video {
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
 	.col-sidebar {
 		position: static;
 		margin: auto;
