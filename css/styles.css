@@ -371,3 +371,9 @@ video {
 		margin-top: 32px;
 	}
 }
+
+@media screen and (max-width: 540px){
+	.nav {
+		font-size: 18px;
+	}
+}
