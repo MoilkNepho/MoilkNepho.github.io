@@ -247,8 +247,9 @@ video {
 
 .share {
 	margin-top: 12px;
+	margin-bottom: 12px;
 	float: right;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .share a:hover{
@@ -259,6 +260,7 @@ video {
 .share .icon {
 	font-size: 24px;
 	color:black;
+	margin-right: 0px;
 }
 
 .share .icon:hover{
