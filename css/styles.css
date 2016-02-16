@@ -367,7 +367,7 @@ video {
 
 @media screen and (max-width: 540px){
 	.nav {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.nav .icon{
