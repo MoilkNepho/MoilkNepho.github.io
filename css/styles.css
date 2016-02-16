@@ -374,11 +374,13 @@ video {
 }
 
 @media screen and (max-width: 450px){
-	.nav {
-		font-size: 24px;
-	}
-
 	.nav a {
 		margin-right: 8px;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.nav {
+		font-size: 18px;
 	}
 }
