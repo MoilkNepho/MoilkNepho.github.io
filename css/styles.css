@@ -240,8 +240,9 @@ video {
 }
 
 .share {
-	text-align: right;
-	float: right;
+    margin-top: 12px;
+    float: right;
+    font-size: 12px;
 }
 
 .footer {
