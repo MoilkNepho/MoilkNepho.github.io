@@ -282,7 +282,7 @@ video {
 	}
 
 	.col-content {
-		margin-top: 42px;
+		margin-top: 64px;
 		padding-left: 0px;
 		max-width: 52rem;
 		width:100%;
@@ -336,5 +336,8 @@ video {
 @media screen and (max-width: 540px){
 	.nav {
 		font-size: 24px;
+	}
+	.col-content {
+		margin-top: 32px;
 	}
 }
