@@ -273,7 +273,7 @@ video {
 	}
 }
 
-@media screen and (max-width: 57.25rem) {
+@media screen and (max-width: 980px) {
 	.col-sidebar {
 		position: static;
 		margin: auto;
@@ -329,22 +329,5 @@ video {
 
 	.logo img {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 33.125rem) {
-	.post-link {
-		width: 100%;
-	}
-
-	.col-content {
-		max-width: 31rem;
-		width:94%;
-	}
-	.col-sidebar {
-		position: static;
-		margin: auto;
-		max-width: 31rem;
-		padding-right: 0px;
 	}
 }
