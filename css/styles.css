@@ -39,7 +39,7 @@ html {
 	padding: 0 0 0 72px;
 	overflow: hidden;
 	list-style: none;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .nav .icon{
@@ -47,6 +47,7 @@ html {
 	font-size: inherit;
 	font-weight: inherit;
 	margin-right: 0px;
+	margin-bottom: 20px;
 }
 
 body {
@@ -366,7 +367,11 @@ video {
 
 @media screen and (max-width: 540px){
 	.nav {
-		font-size: 24px;
+		font-size: 28px;
+	}
+
+	.nav .icon{
+		margin-bottom: 6px;
 	}
 	.col-content {
 		margin-top: 32px;
@@ -376,6 +381,9 @@ video {
 @media screen and (max-width: 450px){
 	.nav a {
 		margin-right: 8px;
+	}
+	.nav .icon{
+		margin-bottom: 0px;
 	}
 }
 
