@@ -239,6 +239,11 @@ video {
 	padding-bottom: 36px;
 }
 
+.share {
+	text-align: right;
+	float: right;
+}
+
 .footer {
 	border-top: 1px solid lightgrey;
 	font-size: 16px;
