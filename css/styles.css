@@ -46,6 +46,7 @@ html {
 	color:black;
 	font-size: inherit;
 	font-weight: inherit;
+	margin-right: 0px;
 }
 
 body {
@@ -349,8 +350,8 @@ video {
 
 	.nav a {
 		float: none;
-		margin-bottom: 10px;
-		margin-right: 10px;
+		margin-bottom: 0px;
+		margin-right: 18px;
 	}
 
 	.nav li {
@@ -372,8 +373,12 @@ video {
 	}
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 450px){
 	.nav {
-		font-size: 18px;
+		font-size: 24px;
+	}
+
+	.nav a {
+		margin-right: 8px;
 	}
 }
