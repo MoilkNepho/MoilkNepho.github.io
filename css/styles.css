@@ -282,6 +282,7 @@ video {
 	}
 
 	.col-content {
+		margin-top: 42px;
 		padding-left: 0px;
 		max-width: 52rem;
 		width:100%;
@@ -298,7 +299,7 @@ video {
 	}
 
 	.nav {
-		font-size: 18px;
+		font-size: 35px;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -329,5 +330,11 @@ video {
 
 	.logo img {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.nav {
+		font-size: 24px;
 	}
 }
