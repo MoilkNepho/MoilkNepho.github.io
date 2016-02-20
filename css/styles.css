@@ -313,10 +313,6 @@ video {
 		padding-right: 0px;
 	}
 
-	.post-body {
-		max-width: 988px;
-	}
-
 	.col-content {
 		margin-top: 64px;
 		padding-left: 0px;
@@ -374,10 +370,6 @@ video {
 		font-size: 24px;
 	}
 
-	.post-body {
-		max-width: 536px;
-	}
-
 	.nav .icon{
 		margin-bottom: 6px;
 	}
@@ -393,18 +385,10 @@ video {
 	.nav .icon{
 		margin-bottom: 0px;
 	}
-
-	.post-body {
-		max-width: 446px;
-	}
 }
 
 @media screen and (max-width: 350px){
 	.nav {
 		font-size: 18px;
-	}
-
-	.post-body {
-		max-width: 346px;
 	}
 }
