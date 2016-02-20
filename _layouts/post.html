@@ -3,6 +3,8 @@ layout: default
 ---
 <!--<h1><marquee scrolldelay="60">otter pop - the world's greatest jekyll theme</marquee></h1>-->
 <h1><i class="fa fa-bookmark-o"></i>{{page.title}}</h1>
-{{ content }}
-{% include share.html%}
-{% include comment.html%}
+<div class="post-body">
+	{{ content }}
+	{% include share.html%}
+	{% include comment.html%}
+</div>
