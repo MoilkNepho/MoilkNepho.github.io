@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Moilk主页
+title: 跳转中...
 ---
 <head>
 <meta http-equiv="refresh" content="2;url=http://duras.wang/blog"> 
