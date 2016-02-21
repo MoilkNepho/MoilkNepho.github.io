@@ -5,7 +5,7 @@ name: "Moilker橱窗"
 description: "Moilker主页"
 
 # 地址设置
-baseurl: "/blog"
+baseurl: ""
 url: "http://duras.wang"
 
 # Markdown设置
