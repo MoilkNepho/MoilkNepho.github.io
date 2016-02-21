@@ -97,6 +97,11 @@ a:hover{
 	font-size: 16px;
 	color: black;
 }
+
+.posts nav{
+	text-align: center;
+}
+
 .posts-title{
 	text-align: center;
 	font-weight:bold;
