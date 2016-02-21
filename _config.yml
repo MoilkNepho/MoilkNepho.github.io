@@ -5,8 +5,8 @@ name: "Moilker橱窗"
 description: "Moilker主页"
 
 # 地址设置
-baseurl: ""
-url: "http://127.0.0.1:4000"
+baseurl: "/blog"
+url: "http://duras.wang"
 
 # Markdown设置
 kramdown:
