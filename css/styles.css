@@ -51,32 +51,32 @@ html {
 }
 
 .pagination-posts{
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
-	li>a {
-		color: black !important;
-	}
 
-	li>a:hover{
-		color:white !important;
-		background: black !important;
-		border-color:black !important;
-	}
+.pagination-posts li a {
+	color: black;
+}
 
-	.active>span{
-		z-index: 2 !important;
-		color: #fff !important;
-		cursor: default !important;
-		background-color: black !important;
-		border-color: black !important;
-	}
+.pagination-posts li a:hover{
+	color:white;
+	background: black;
+	border-color:black;
+}
+.pagination-posts.active span{
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: black;
+	border-color: black;
+}
 
-	.active>span:focus,
-	.active>span:hover {
-		background-color: green !important;
-		border-color: green !important;
-	}
+.pagination-posts.active span:focus,
+.pagination-posts.active span:hover {
+	background-color: green;
+	border-color: green;
 }
 
 
