@@ -1,6 +1,5 @@
-permalink: /:year/:month/:day/:title
-markdown: rdiscount
-exclude: ['.git']
+permalink: /:year/:month/:day/:title/
+
 name: "Moilker橱窗"
 description: "Moilker主页"
 
