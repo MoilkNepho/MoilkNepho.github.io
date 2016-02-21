@@ -68,7 +68,7 @@ html {
 	z-index: 2;
 	color: #fff;
 	cursor: default;
-	background-color: black;
+	background-color: white;
 	border-color: black;
 }
 .pagination-posts li a:hover{

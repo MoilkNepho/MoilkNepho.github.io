@@ -17,5 +17,5 @@ kramdown:
 highlighter: pygments
 
 # 分页设置
-paginate: 7
+paginate: 6
 paginate_path: "project/page:num"
