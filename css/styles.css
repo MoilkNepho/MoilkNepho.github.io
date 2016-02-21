@@ -51,31 +51,31 @@ html {
 }
 
 .pagination-posts{
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 
-	li>a{
-		color: black;
+	li>a {
+		color: black !important;
 	}
 
 	li>a:hover{
-		color:white;
-		background: black;
-		border-color:black;
+		color:white !important;
+		background: black !important;
+		border-color:black !important;
 	}
 
 	.active>span{
-		z-index: 2;
-		color: #fff;
-		cursor: default;
-		background-color: black;
-		border-color: black;
+		z-index: 2 !important;
+		color: #fff !important;
+		cursor: default !important;
+		background-color: black !important;
+		border-color: black !important;
 	}
 
 	.active>span:focus,
 	.active>span:hover {
-		background-color: green;
-		border-color: green;
+		background-color: green !important;
+		border-color: green !important;
 	}
 }
 
