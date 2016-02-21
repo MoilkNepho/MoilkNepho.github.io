@@ -242,35 +242,6 @@ video {
 	font-style: normal;
 }
 
-.pagination-posts{
-	margin-top: 0;
-	margin-bottom: 0;
-
-	li>a{
-		color: black;
-		border-color: black;
-	}
-	li>a:hover{
-		color:white;
-		background: green;
-		border-color: green;
-	}
-
-	.active>span{
-		z-index: 2;
-		color: white;
-		cursor: default;
-		background-color: black;
-		border-color: black;
-	}
-	.active>span:focus,
-	.active>span:hover {
-		background-color: green;
-		border-color: green;
-	}
-}
-
-
 .notfound {
 	text-align: center;
 	padding-bottom: 36px;
