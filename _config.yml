@@ -18,4 +18,4 @@ highlighter: pygments
 
 # 分页设置
 paginate: 7
-paginate_path: "page/:num"
+paginate_path: "page:num"
