@@ -10,7 +10,7 @@ excerpt: "在Qt5下实现的校园卡系统，使用S50卡和高频读写器模�
 ------------------------------------------------------------
 ## 校园卡终端（Campus Card Terminal）v1.2
 ------------------------------------------------------------
---------> [源码下载](https://codeload.github.com/Moilk/CampusCardTerminal/zip/master) [程序下载](https://codeload.github.com/MoilkNepho/CampusCardTerminal/zip/release)  
+--------> [源码下载](https://codeload.github.com/Moilk/CampusCardTerminal/zip/master) [程序下载](https://codeload.github.com/Moilk/CampusCardTerminal/zip/release)  
 
 + 系 统 名: 校园卡支付管理系统  
 + 开 发 者: Moilk、Pivot  
