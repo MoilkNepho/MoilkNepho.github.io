@@ -9,14 +9,14 @@ title: 项目
 
 	<nav>
 		<ul class="pagination pagination-posts">
-			{% if paginator.total_pages > 1 %}
-			{% if paginator.previous_page %}
+		{% if site.total_pages > 1 %}
+		{% if site.previous_page %}
 			<li>
-				<a href="{{ paginator.previous_page_path | prepend: site.url}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+			<a href="{{ site.previous_page_path | prepend: site.url}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
 			</li>
 			{% endif %}
-			{% for page in (1..paginator.total_pages) %}
-			{% if page == paginator.page %}
+			{% for page in (1..site.total_pages) %}
+			{% if page == site.page %}
 			<li class="active"><span>{{ page }}</span></li>
 			{% elsif page == 1 %}
 			<li><a href="{{ site.url }}">{{ page }}</a></li>
@@ -24,9 +24,9 @@ title: 项目
 			<li><a href="{{ site.url}}/page{{ page }}">{{ page }}</a></li>
 			{% endif %}
 			{% endfor %}
-			{% if !paginator.next_page %}
+			{% if !site.next_page %}
 			<li>
-				<a href="{{ paginator.next_page_path | prepend: site.url}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+			<a href="{{ site.next_page_path | prepend: site.url}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
 			</li>
 			{% endif %}
 			{% endif %}
