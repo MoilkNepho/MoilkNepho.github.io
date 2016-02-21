@@ -8,7 +8,7 @@ title: 项目
 	{% endfor %}
 
 	<nav>
-	<ul class="pagination-posts pagination">
+		<ul class="pagination-posts pagination">
 			{% if paginator.total_pages > 1 %}
 			{% if paginator.previous_page %}
 			<li>
@@ -19,9 +19,9 @@ title: 项目
 			{% if page == paginator.page %}
 			<li class="active"><span>{{ page }}</span></li>
 			{% elsif page == 1 %}
-			<li><a href="{{ site.paginate_path }}">{{ page }}</a></li>
+			<li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
 			{% else %}
-			<li><a href="{{ site.paginate_path}}/page{{ page }}">{{ page }}</a></li>
+			<li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
 			{% endif %}
 			{% endfor %}
 			{% if !paginator.next_page %}
