@@ -69,9 +69,7 @@ html {
 	background-color: black;
 	border-color: black;
 }
-.pagination-posts li a:hover,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
+.pagination-posts li a:hover{
 	color:white;
 	background-color: green;
 	border-color: green;
