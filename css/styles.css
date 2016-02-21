@@ -62,7 +62,9 @@ html {
 	border-color: black
 }
 
-.pagination > .active > span{
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
 	z-index: 2;
 	color: #fff;
 	cursor: default;
