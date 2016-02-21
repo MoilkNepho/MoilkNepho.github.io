@@ -2,11 +2,11 @@ permalink: /:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
 name: "Moilker橱窗"
-description: "Moilk主页"
+description: "Moilker主页"
 
 # 地址设置
 baseurl: ""
-url: "http://duras.wang"
+url: "http://127.0.0.1:4000"
 
 # Markdown设置
 kramdown:
