@@ -6,30 +6,4 @@ title: 项目
 	<h1 class="posts-title">Moilker橱窗 - 人类的梦想是不会终结的！</h1> 
 	{% for post in site.posts %}<a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a>
 	{% endfor %}
-
-	<nav>
-		<ul class="pagination pagination-posts">
-		{% if site.total_pages > 1 %}
-		{% if site.previous_page %}
-			<li>
-			<a href="{{ site.previous_page_path | prepend: site.url}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-			</li>
-			{% endif %}
-			{% for page in (1..site.total_pages) %}
-			{% if page == site.page %}
-			<li class="active"><span>{{ page }}</span></li>
-			{% elsif page == 1 %}
-			<li><a href="{{ site.url }}">{{ page }}</a></li>
-			{% else %}
-			<li><a href="{{ site.url}}/page{{ page }}">{{ page }}</a></li>
-			{% endif %}
-			{% endfor %}
-			{% if !site.next_page %}
-			<li>
-			<a href="{{ site.next_page_path | prepend: site.url}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-			</li>
-			{% endif %}
-			{% endif %}
-		</ul>
-	</nav>
 </div>
