@@ -53,19 +53,30 @@ html {
 .pagination-posts{
 	margin-top: 0;
 	margin-bottom: 0;
+	text-align: center;
 
 	li>a{
-		color: $gray-darker;
+		color: black;
 	}
 
-	.active>span,
-	.active>span:focus,
-	.active>span:hover {
+	li>a:hover{
+		color:white;
+		background: black;
+		border-color:black;
+	}
+
+	.active>span{
 		z-index: 2;
 		color: #fff;
 		cursor: default;
-		background-color: $primary-color;
-		border-color: $primary-color;
+		background-color: black;
+		border-color: black;
+	}
+
+	.active>span:focus,
+	.active>span:hover {
+		background-color: green;
+		border-color: green;
 	}
 }
 
