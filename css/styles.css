@@ -53,18 +53,15 @@ html {
 .pagination-posts{
 	margin-top: 0;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 
 .pagination-posts li a {
 	color: black;
+	border-color: black
 }
 
-.pagination-posts li a:hover{
-	color:white;
-	background: black;
-	border-color:black;
-}
 .pagination > .active > span{
 	z-index: 2;
 	color: #fff;
@@ -72,9 +69,10 @@ html {
 	background-color: black;
 	border-color: black;
 }
-
+.pagination-posts li a:hover,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
+	color:white;
 	background-color: green;
 	border-color: green;
 }
