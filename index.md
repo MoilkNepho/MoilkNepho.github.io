@@ -12,7 +12,7 @@ title: Moilk主页
 | 2 | [rolling stone](http://duras.wang/blog/2016/02/01/RollingStone/) | 2016-02-12 |
 | 3 | [校园卡终端](http://duras.wang/2016/02/15/CampusCardTerminal) |2016-02-15 |  
 | 4 | [贪吃蛇](http://duras.wang/2016/02/20/snake) |2016-02-20 |  
-| 4 | [国际跳棋](http://duras.wang/2016/02/21/draught) |2016-02-21 |  
+| 5 | [国际跳棋](http://duras.wang/2016/02/21/draught) |2016-02-21 |  
 
 ### ![推荐](http://duras.wang/img/myLogo/tuijian.png) 精彩推荐  
 【暂无】  
@@ -25,4 +25,4 @@ title: Moilk主页
 ![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14  
 
 {% include share.html%}  
-{% include comment.html%}  
+{% include comment.html%}
