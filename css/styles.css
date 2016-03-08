@@ -17,6 +17,16 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	width:70%;
+
+	ul{
+		list-style: disc;
+	}
+	ul ul,ol ul{
+		list-style: circle;
+	}
+	ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+		list-style-type: square;
+	}
 }
 
 .col-content h1 {
