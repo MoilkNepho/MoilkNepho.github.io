@@ -1,6 +1,7 @@
 html {
 	font-size: 16px;
 	font-family: monospace;
+	background: #C7EDCC;
 }
 
 .container{
@@ -53,7 +54,7 @@ html {
 }
 
 .nav {
-	padding: 0 0 0 72px;
+	padding: 0 72px 0 72px;
 	overflow: hidden;
 	list-style: none;
 	font-size: 24px;
@@ -282,6 +283,7 @@ video {
 }
 
 .nav a {
+	margin: 21px 0px 18px 23px;
 	color: black;
 	text-decoration: none;
 }
