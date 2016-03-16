@@ -53,10 +53,11 @@ html {
 }
 
 .nav {
-	padding: 0 72px 0 72px;
+	margin: 0 72px 0 72px;
 	overflow: hidden;
 	list-style: none;
 	font-size: 24px;
+	background: seagreen;
 }
 
 .nav .icon{
