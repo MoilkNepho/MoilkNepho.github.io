@@ -14,9 +14,10 @@ html {
 .col-content {
 	padding-right: 0px;
 	padding-left: 36px;
-	margin-left: auto;
+	margin-left: 50px;
 	margin-right: auto;
 	width:70%;
+	border-left: 2px solid brown;
 }
 
 .col-content ul{
@@ -329,7 +330,7 @@ video {
 }
 
 .footer {
-	border-top: 1px solid lightgrey;
+	border-top: 1px solid brown;
 	font-size: 16px;
 	padding-top: 16px;
 	text-align: center;
@@ -373,8 +374,10 @@ video {
 	.col-content {
 		margin-top: 64px;
 		padding-left: 0px;
+		margin-left: auto;
 		max-width: 52rem;
 		width:100%;
+		border-left: none;
 	}
 
 	.col-content h1 {
