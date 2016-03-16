@@ -50,10 +50,12 @@ html {
 .logo img {
 	width: 100%;
 	height: 100%;
+	border: 4px solid seagreen;
+	border-radius: 100%;
 }
 
 .nav {
-	margin: 0 72px 0 72px;
+	margin: 36px 72px 36px 72px;
 	overflow: hidden;
 	list-style: none;
 	font-size: 24px;
