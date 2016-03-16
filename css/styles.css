@@ -58,6 +58,8 @@ html {
 	list-style: none;
 	font-size: 24px;
 	background: seagreen;
+	border-top-left-radius: 24px;
+	border-bottom-right-radius: 24px;
 }
 
 .nav .icon{
@@ -389,15 +391,11 @@ video {
 		top: 0;
 		left: 0;
 		margin: 0;
-		padding: 5px;
+		padding: 0px;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
 		width: 94%;
 		height: 3rem;
-	}
-
-	.nav {
-		padding-top: 0.3em;
 		height: 4rem;
 		text-align: center;
 	}
