@@ -395,7 +395,7 @@ video {
 		padding: 0px;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
-		width: 94%;
+		width: 100%;
 		height: 3rem;
 		height: 4rem;
 		text-align: center;
@@ -403,7 +403,7 @@ video {
 
 	.nav a {
 		float: none;
-		margin-bottom: 0 0 0 18px;
+		margin: 10px 10px 10px 10px;
 	}
 
 	.nav li {
