@@ -1,7 +1,6 @@
 html {
 	font-size: 16px;
 	font-family: monospace;
-	background: #C7EDCC;
 }
 
 .container{
@@ -99,6 +98,7 @@ html {
 body {
 	margin: 0;
 	padding: 10px 0px 10px 0px;
+	background: #C7EDCC;
 }
 
 a {
@@ -403,8 +403,7 @@ video {
 
 	.nav a {
 		float: none;
-		margin-bottom: 0px;
-		margin-right: 18px;
+		margin-bottom: 0 0 0 18px;
 	}
 
 	.nav li {
