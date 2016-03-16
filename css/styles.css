@@ -437,6 +437,7 @@ video {
 @media screen and (max-width: 450px){
 	.nav a {
 		margin-right: 8px;
+		margin: 20px 10px 10px 10px;
 	}
 	.nav .icon{
 		margin-bottom: 0px;
