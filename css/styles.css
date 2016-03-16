@@ -61,7 +61,7 @@ html {
 }
 
 .nav .icon{
-	color:black;
+	color:mintcream;
 	font-size: inherit;
 	font-weight: inherit;
 	margin-right: 0px;
@@ -285,12 +285,12 @@ video {
 
 .nav a {
 	margin: 21px 0px 18px 23px;
-	color: black;
+	color: khaki;
 	text-decoration: none;
 }
 
 .nav a:hover {
-	color: black;
+	color: khaki;
 	font-weight: bold;
 	font-style: normal;
 }
