@@ -367,6 +367,12 @@ video {
 	}
 }
 
+@media screen and (max-width: 1183px) {
+	.nav {
+		margin: 36px 52px 36px 52px;
+	}
+}
+
 @media screen and (max-width: 992px) {
 	.col-sidebar {
 		position: static;
