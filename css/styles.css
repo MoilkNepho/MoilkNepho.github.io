@@ -379,7 +379,6 @@ video {
 		margin: auto;
 		max-width: 52rem;
 		padding-right: 0px;
-		width: 30%;
 	}
 
 	.col-content {
@@ -387,7 +386,6 @@ video {
 		padding-left: 0px;
 		margin-left: auto;
 		max-width: 52rem;
-		width:70%;
 		border-left: none;
 	}
 
