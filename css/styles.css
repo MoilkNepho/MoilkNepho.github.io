@@ -16,6 +16,7 @@ html {
 	padding-left: 36px;
 	margin-left: 36px;
 	margin-right: auto;
+	width: 70%;
 }
 
 .col-content ul{
@@ -386,6 +387,7 @@ video {
 		margin-left: auto;
 		max-width: 52rem;
 		border-left: none;
+		width: 100%;
 	}
 
 	.col-content h1 {
