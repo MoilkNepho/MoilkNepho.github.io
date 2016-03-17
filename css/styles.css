@@ -73,6 +73,10 @@ html {
 	margin-bottom: 20px;
 }
 
+.nav .icon:hover{
+	color:seagreen;
+}
+
 .pagination-posts{
 	margin-top: 0;
 	margin-bottom: 0;
@@ -294,7 +298,7 @@ video {
 }
 
 .nav a:hover {
-	color: khaki;
+	color: gold;
 	font-weight: bold;
 	font-style: normal;
 }
