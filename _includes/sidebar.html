@@ -1,5 +1,5 @@
 <a href="/" class="logo">
-	<img src="/img/logo.png">
+	<img src="http://duras.wang/img/logo.png" onmouseover="imgSwap(this);" onmouseout="imgSwap(this);">
 </a>
 
 <ul class="nav">
@@ -10,3 +10,12 @@
 		<li class="active"><a href="http://duras.wang/about"><i class="icon iconfont">&#xe607;</i> 关于 </a></li>
 	</div>
 </ul>
+
+<script language="javascript">
+	<!--
+	var src1="http://duras.wang/img/logo.png";
+	var src2="http://duras.wang/img/logo_hover.png";
+function imgLoad(imgSrc){img1.src=imgSrc;/*return imgSrc;*/}
+function imgSwap(imgObj){imgObj.src=(imgObj.src==src1)?src2:src1;}
+//-->
+</script>
