@@ -55,6 +55,10 @@ html {
 	border-radius: 100%;
 }
 
+.logo img:hover{
+	border:7px dashed black;
+}
+
 .nav {
 	margin: 36px 72px 36px 72px;
 	overflow: hidden;
