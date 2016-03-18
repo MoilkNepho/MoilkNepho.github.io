@@ -53,12 +53,12 @@ html {
 	border: 6px dashed black;
 	padding: 5px;
 	border-radius: 100%;
-	box-shadow: 0px 0px 1px balck;
+	box-shadow: 0px 0px 1px black;
 }
 
 .logo img:hover{
 	border:6px dotted black;
-	box-shadow: 0px 0px 6px balck;
+	box-shadow: 0px 0px 6px black;
 }
 
 .nav {
