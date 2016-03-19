@@ -3,7 +3,7 @@ layout: default
 title: Moilk主页
 ---
 # <center>**< - Moilk.<font color=orange size=64>zone</font> - >**</center>  
-<center><font color=green>|^_^|>_<|o_0|o_<|*_*|$_$|@_@|0_0|?_?|</font></center>
+<center><font color=green>---- |^_^|>_<|o_0|o_<|*_*|$_$|@_@|0_0|?_?| ----</font></center>
 
 ### ![时间](http://duras.wang/img/myLogo/time.png) 近期更新  
 
