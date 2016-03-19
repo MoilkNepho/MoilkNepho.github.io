@@ -2,7 +2,7 @@
 layout: default
 title: Moilk主页
 ---
-## ----> ![房子](http://duras.wang/img/myLogo/room.png) Moilker 空间  
+# ———> ![房子](http://duras.wang/img/myLogo/room.png) {{ Moilk.zone }}  
 
 ### ![时间](http://duras.wang/img/myLogo/time.png) 近期更新  
 
@@ -20,7 +20,7 @@ title: Moilk主页
 
 ************************
 > 人类的梦想是不会终结的！  
--------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)  
+———> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)  
 
 ![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14  
 
