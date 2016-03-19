@@ -2,7 +2,7 @@
 layout: default
 title: Moilk主页
 ---
-# ———> ![房子](http://duras.wang/img/myLogo/room.png) {{ Moilk.zone }}  
+# ——> ![房子](http://duras.wang/img/myLogo/room.png) < Moilk.zone >  
 
 ### ![时间](http://duras.wang/img/myLogo/time.png) 近期更新  
 
