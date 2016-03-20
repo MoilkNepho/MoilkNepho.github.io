@@ -8,112 +8,164 @@
 
 <url>
   <loc>http://duras.wang/</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/project/</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/about</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2016/01/29/gradle/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2016/02/01/RollingStone/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/2016/02/15/CampusCardTerminal</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/2016/02/20/snake</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/2016/02/21/draught</loc>
-  <lastmod>2016-03-08T11:15:32+00:00</lastmod>
+  <lastmod>2016-03-20T02:33:12+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/category/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/tag/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://duras.wang/blog/2016/03/08/08-basic-elements-of-computer-system/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <loc>http://duras.wang/blog/2016/03/18/algorithms01/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://duras.wang/blog/2016/03/08/instruction-execution/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <loc>http://duras.wang/blog/2016/03/16/os24/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://duras.wang/blog/2016/03/08/functions&amp;evolution/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <loc>http://duras.wang/blog/2016/03/15/os23/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://duras.wang/blog/2016/03/08/DBMSbasic/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <loc>http://duras.wang/blog/2016/03/14/os22/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://duras.wang/blog/2016/03/09/os21/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://duras.wang/blog/2016/03/08/os12/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/page2/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://duras.wang/blog/page3/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://duras.wang/blog/2016/03/08/os11/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://duras.wang/blog/2016/03/08/db01/</loc>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>http://duras.wang/blog/2015/12/14/Qt5-msvc%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2015/11/08/Java%E6%9D%82%E8%AE%B0/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2015/11/08/CAT-5%E7%94%B5%E7%BC%86/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2015/11/07/%E6%AD%A3%E8%A7%84%E8%A1%A8%E7%A4%BA%E6%B3%95/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2015/11/07/Intent/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://duras.wang/blog/2015/11/07/Android%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6/</loc>
-  <lastmod>2016-03-09T14:34:42+00:00</lastmod>
+  <lastmod>2016-03-19T13:03:06+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.51</priority>
 </url>
 </urlset>
