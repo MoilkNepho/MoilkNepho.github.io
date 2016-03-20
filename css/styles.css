@@ -15,6 +15,7 @@ html {
 	font-family: Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC","Hiragino Sans GB",Simsun,sans-self;
 	top: 10%;
 	width: 100%;
+	text-shadow: 1px 2px 3px;
 	text-align: center;
 }
 
