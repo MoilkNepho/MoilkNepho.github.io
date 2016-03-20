@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Moilk主页
 ---
 ### ![时间](http://duras.wang/img/myLogo/time.png) 近期更新  
