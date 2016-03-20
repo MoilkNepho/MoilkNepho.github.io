@@ -2,7 +2,7 @@
 layout: default
 title: Moilk主页
 ---
-<font size=5>**----> Moilk.**</font><font color=orange size=8>**zone**</font>  
+<center><font size=5>**{**<font color=orange size=8>**{**</font> **Moilk.**<font color=orange size=8>**zone }**</font>**}**</font></center>  
 
 ### ![时间](http://duras.wang/img/myLogo/time.png) 近期更新  
 
