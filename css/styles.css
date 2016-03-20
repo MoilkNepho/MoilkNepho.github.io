@@ -3,6 +3,12 @@ html {
 	font-family: monospace;
 }
 
+#particles {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+
 .container{
 	padding-bottom: 36px;
 }
