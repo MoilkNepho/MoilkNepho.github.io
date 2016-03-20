@@ -21,6 +21,7 @@ html {
 #intro h1{
 	font-size: 54px;
 	font-weight: bold;
+	padding: 0px;
 }
 
 #intro p{
