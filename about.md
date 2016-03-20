@@ -29,5 +29,3 @@ title: 关于
 -------> 出自 海贼王![sina](http://duras.wang/img/px16/onepiece.png)
 
 ![日历](http://duras.wang/img/rili.png) 更新时间： 2016-02-14
-{% include share.html%}
-{% include comment.html%}
