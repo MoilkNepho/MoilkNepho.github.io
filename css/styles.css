@@ -410,13 +410,9 @@ video {
 
 @media screen and (max-width: 992px) {
 	#particles {
-		height: 150px;
+		display: none;
 	}
 
-	#intro {
-		top: 5%;
-		width: 100%;
-	}
 
 	.col-sidebar {
 		position: static;
