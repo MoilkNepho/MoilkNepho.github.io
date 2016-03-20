@@ -9,6 +9,15 @@ html {
   overflow: hidden;
 }
 
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+
 .container{
 	padding-bottom: 36px;
 }
