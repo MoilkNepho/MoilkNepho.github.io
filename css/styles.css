@@ -13,18 +13,18 @@ html {
 	position: absolute;
 	left: 0;
 	font-family: Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC","Hiragino Sans GB",Simsun,sans-self;
-	top: 18px;
+	top: 10%;
 	width: 100%;
 	text-align: center;
 }
 
 #intro h1{
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: bold;
 }
 
 #intro p{
-	font-size:32px;
+	font-size:28px;
 }
 
 .container{
@@ -408,6 +408,15 @@ video {
 }
 
 @media screen and (max-width: 992px) {
+	#particles {
+		height: 150px;
+	}
+
+	#intro {
+		top: 5%;
+		width: 100%;
+	}
+
 	.col-sidebar {
 		position: static;
 		margin: auto;
