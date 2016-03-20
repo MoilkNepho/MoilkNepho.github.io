@@ -10,13 +10,21 @@ html {
 }
 
 #intro {
-	font-size: 32px;
 	position: absolute;
 	left: 0;
-	top: 50%;
-	padding: 0 20px;
+	font-family: Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC","Hiragino Sans GB",Simsun,sans-self;
+	top: 18px;
 	width: 100%;
 	text-align: center;
+}
+
+#intro h1{
+	font-size: 64px;
+	font-weight: bold;
+}
+
+#intro p{
+	font-size:32px;
 }
 
 .container{
