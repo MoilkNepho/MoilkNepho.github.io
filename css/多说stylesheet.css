@@ -1,0 +1,136 @@
+/*粘贴到多说控制台的自定义CSS中*/
+#ds-thread #ds-reset .ds-powered-by{
+	display:none;
+}
+#ds-wrapper #ds-reset .ds-logo {
+	display:none;
+}
+#ds-wrapper #ds-reset .ds-dialog-footer span {
+	display: none;
+}
+
+#ds-thread #ds-reset .ds-post-button {
+	background: black;
+}
+#ds-thread #ds-reset .ds-post-button:hover {
+	background: #378000;
+}
+
+#ds-reset .ds-replybox.ds-inline-replybox a.ds-avatar img {width: 32px !important;height: 32px !important; border-radius:50%;} 
+#ds-reset .ds-replybox a.ds-avatar,
+#ds-reset .ds-replybox .ds-avatar img { padding:0;width:32px !important;height:32px !important; border-radius:5px; }
+#ds-reset .ds-avatar img {width:32px !important;height:32px !important;border-radius:32px;box-shadow:0 1px 3px rgba(0, 0, 0, 0.22);
+	-webkit-transition:.4s all ease-in-out;-moz-transition:.4s all ease-in-out;-o-transition:.4s all ease-in-out;-ms-transition:.4s all ease-in-out;transition:.4s all ease-in-out;
+}
+.ds-post-self:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
+#ds-wrapper #ds-reset button {
+	color: #ffffff;
+	background-color: black;
+	border: 1px solid black;
+	display: inline-block;
+	background-image: inherit;
+	font-size: 15px;
+	height: 30px;
+	width: 100px;
+	padding: 0;
+}
+#ds-wrapper #ds-reset button:hover{
+	color: #ffffff;
+	background-color: #777777;
+	border-color: #777777
+}
+#ds-wrapper #ds-reset .ds-dialog-footer {
+	clear: both;
+	border-top: 0px dotted #ccc; 
+	padding: 10px 15px 6px;
+}
+
+#ds-thread {
+	margin-top: 32px;
+	border: 1px dashed black;
+	border-radius: 3px;
+}
+
+#ds-reset {
+	margin: 12px;
+}
+
+#ds-thread #ds-reset li.ds-tab a.ds-current {
+	border: 1px solid black;
+	background-color: none;
+	color: black;
+}
+
+#ds-thread #ds-reset li.ds-post {
+	border-top: 1px dotted black;
+}
+
+#ds-thread #ds-reset .ds-comments, #ds-thread #ds-reset .ds-paginator {
+	border-bottom: 1px dotted black;
+}
+
+#ds-reset .ds-gradient-bg {
+	background: none;
+}
+
+#ds-thread #ds-reset .ds-replybox .ds-avatar {
+	margin: 0 0 0 0px;
+}
+
+#ds-thread #ds-reset .ds-post-options {
+	margin-right: 0;
+	border: 1px solid black;
+}
+
+#ds-thread #ds-reset .ds-textarea-wrapper {
+	border: 1px solid black;
+	border-bottom: none;
+}
+
+#ds-smilies-tooltip {
+	border: 1px solid black;
+}
+
+#ds-smilies-tooltip ul.ds-smilies-tabs {
+	border-right: 1px solid black;
+}
+
+#ds-smilies-tooltip ul.ds-smilies-tabs li a {
+	color: black;
+	border-bottom: 1px solid black;
+	background-color: none;
+	background: none;
+}
+
+#ds-wrapper #ds-reset .ds-dialog-inner {
+	border: 1px solid black;
+}
+
+#ds-thread #ds-reset .ds-account-control ul {
+	border: 1px solid black;
+	background: none;
+}
+
+#ds-wrapper #ds-reset .ds-control-group input {
+	color: #555;
+	border: 1px solid black;
+}
+
+#ds-thread #ds-reset .ds-account-control ul li a {
+	border-top: 1px solid #fff;
+	text-shadow: 0 1px 0 #fff;
+}
+#ds-thread #ds-reset a {
+	color: black;
+	background-color: none;
+}
+
+#ds-thread #ds-reset .ds-account-control ul li a {
+	border-bottom: 1px solid black;
+}
+
+#ds-reset .ds-avatar {
+	border-radius:100%;
+	box-shadow: 0 1px 1px grey;
+	background: none;
+}
