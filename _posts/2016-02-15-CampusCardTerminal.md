@@ -30,18 +30,18 @@ excerpt: "在Qt5下实现的校园卡系统，使用S50卡和高频读写器模�
 		密  码：1234  
 	c)软件必须在读写器以及数据库连接的情况下使用，否则为防止系统异常所有功能将被置为不可用的状态；  
 + 使用的读写器  
-![reader.png](http://duras.wang/img/projects/CampusCardTerminal/reader.png)  
+![reader.png]({{site.baseurl}}/img/projects/CampusCardTerminal/reader.png)  
 
 + 图形界面
 
 	* 主页   
-![图形界面.png](http://duras.wang/img/projects/CampusCardTerminal/主页.png)  
+![图形界面.png]({{site.baseurl}}/img/projects/CampusCardTerminal/主页.png)  
 	* 管理界面   
-![管理.png](http://duras.wang/img/projects/CampusCardTerminal/管理.png)  
+![管理.png]({{site.baseurl}}/img/projects/CampusCardTerminal/管理.png)  
 	* 消费界面  
-![消费.png](http://duras.wang/img/projects/CampusCardTerminal/消费.png)  
+![消费.png]({{site.baseurl}}/img/projects/CampusCardTerminal/消费.png)  
 	* 查询界面   
-![查询.png](http://duras.wang/img/projects/CampusCardTerminal/查询.png)  
+![查询.png]({{site.baseurl}}/img/projects/CampusCardTerminal/查询.png)  
 
 -------------------------------------------------------------
 

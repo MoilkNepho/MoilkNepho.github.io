@@ -1,20 +1,20 @@
 <a href="/" class="logo">
-	<img src="http://duras.wang/img/logo.png" onmouseover="imgSwap(this);" onmouseout="imgSwap(this);">
+	<img src="{{site.baseurl}}/img/logo.png" onmouseover="imgSwap(this);" onmouseout="imgSwap(this);">
 </a>
 
 <ul class="nav">
 	<div class="nav-inner">
-		<li class="active"><a href="http://duras.wang/"><i class="icon iconfont">&#xe600;</i> 主页 </a></li>
+		<li class="active"><a href="{{site.baseurl}}/"><i class="icon iconfont">&#xe600;</i> 主页 </a></li>
 		<li class="active"><a href="{{site.baseurl}}/blog"><i class="icon iconfont">&#xe603;</i> 博客 </a></li>
-		<li class="active"><a href="http://duras.wang/project"><i class="icon iconfont">&#xe615;</i> 项目 </a></li>
-		<li class="active"><a href="http://duras.wang/about"><i class="icon iconfont">&#xe607;</i> 关于 </a></li>
+		<li class="active"><a href="{{site.baseurl}}/project"><i class="icon iconfont">&#xe615;</i> 项目 </a></li>
+		<li class="active"><a href="{{site.baseurl}}/about"><i class="icon iconfont">&#xe607;</i> 关于 </a></li>
 	</div>
 </ul>
 
 <script language="javascript">
 	<!--
-	var src1="http://duras.wang/img/logo.png";
-	var src2="http://duras.wang/img/logo_hover.png";
+	var src1="{{site.baseurl}}/img/logo.png";
+	var src2="{{site.baseurl}}/img/logo_hover.png";
 function imgLoad(imgSrc){img1.src=imgSrc;/*return imgSrc;*/}
 function imgSwap(imgObj){imgObj.src=(imgObj.src==src1)?src2:src1;}
 //-->

@@ -6,7 +6,7 @@ description: "Moilker主页"
 
 # 地址设置
 baseurl: ""
-url: "http://duras.wang"
+url: "http://moilk.org"
 
 # Markdown设置
 kramdown:
