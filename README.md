@@ -5,7 +5,7 @@
 　　![home](./img/readme/1.png)  
 　　另外，网站还使用了多说的评论框，同时自定义了黑白的css,代码可以在项目的css目录下找到，期待你的评论。  
 　　![comment](./img/readme/2.png)  
-　　欢迎访问：[http://duras.wang](http://duras.wang)  
+　　欢迎访问：[http://moilk.org](http://dmoilk.org)  
 　　最后粘上自己的邮箱: moilk@qq.com  
 ****************************************
 2016/04/17
