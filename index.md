@@ -4,9 +4,9 @@ title: Moilk主页
 ---
 ### ![时间]({{site.baseurl}}/img/myLogo/time.png) 近期更新  
 
-| # | 项目 | 更新时间 |
-| :--:| :--: | :---: |
-| 1 | [ccf认证（更新中）]（{{site.baseurl}}/blog/category/#CCF） | 2016-09-05 |  
+| # | 项目 | 更新时间 |  
+| :--:| :--: | :---: |  
+| 1 | [ccf认证(更新中)]({{site.baseurl}}/blog/category/#CCF) | 2016-09-05 |  
 | 2 | [算法-斐波那契数列]({{site.baseurl}}/blog/2016/03/18/algorithms01/) |2016-03-18 |  
 | 3 | [国际跳棋]({{site.baseurl}}/2016/02/21/draught) |2016-02-21 |  
 | 4 | [贪吃蛇]({{site.baseurl}}/2016/02/20/snake) |2016-02-20 |  
