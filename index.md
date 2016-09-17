@@ -15,11 +15,39 @@ title: Moilk主页
 | 7 | [rolling stone]({{site.baseurl}}/blog/2016/02/01/RollingStone/) | 2016-02-12 |
 
 ### ![推荐]({{site.baseurl}}/img/myLogo/tuijian.png) 精彩推荐  
+　　分享一个延时D算法：  
 
-```plain
-　There is no shortcut to excellence. You will have to make the commitment to make excellence your priority. Use your talents, abilities, and skills in the best way possible and get ahead of others by giving that little extra. Live by a higher standard and pay attention to the details that really do make the difference. Excellence is not difficult - simply decide right now to give it your best shot - and you will be amazed with what life gives you back.  
--- Steven Jobs  
+```java
+    // single-source shortest path problem from s
+    public LazyDijkstraSP(EdgeWeightedDigraph G, int s) {
+        for (DirectedEdge e : G.edges()) { 
+            if (e.weight() < 0)
+                throw new IllegalArgumentException("edge " + e + " has negative weight");
+        }
+
+        pq = new MinPQ<DirectedEdge>(new ByDistanceFromSource());
+        marked = new boolean[G.V()];
+        edgeTo = new DirectedEdge[G.V()];
+        distTo = new double[G.V()];
+
+        // initialize
+        for (int v = 0; v < G.V(); v++)
+            distTo[v] = Double.POSITIVE_INFINITY;
+        distTo[s] = 0.0;
+        relax(G, s);
+
+        // run Dijkstra's algorithm
+        while (!pq.isEmpty()) {
+            DirectedEdge e = pq.delMin();
+            int v = e.from(), w = e.to();
+            if (!marked[w]) relax(G, w);   // lazy, so w might already have been relaxed
+        }
+
+        // check optimality conditions
+        assert check(G, s);
+    }
 ```
+
 
 
 ************************
