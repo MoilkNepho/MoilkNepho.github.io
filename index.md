@@ -16,8 +16,9 @@ title: Moilk主页
 
 ### ![推荐]({{site.baseurl}}/img/myLogo/tuijian.png) 精彩推荐  
 
-```jobs
-There is no shortcut to excellence. You will have to make the commitment to make excellence your priority. Use your talents, abilities, and skills in the best way possible and get ahead of others by giving that little extra. Live by a higher standard and pay attention to the details that really do make the difference. Excellence is not difficult - simply decide right now to give it your best shot - and you will be amazed with what life gives you back.
+```plain
+　There is no shortcut to excellence. You will have to make the commitment to make excellence your priority. Use your talents, abilities, and skills in the best way possible and get ahead of others by giving that little extra. Live by a higher standard and pay attention to the details that really do make the difference. Excellence is not difficult - simply decide right now to give it your best shot - and you will be amazed with what life gives you back.  
+-- Steven Jobs  
 ```
 
 
