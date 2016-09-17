@@ -11,7 +11,7 @@ excerpt: "大三时操作系统课设的一部分"
 ## 系统监视器
 -------------------------------------
 --------> [源码下载](https://codeload.github.com/Moilk/SystemMonitor/zip/master)  
-分析Linux的/proc文件系统，得到系统进程和资源的信息，在图形界面上实时的显示出来。实现的功能类似于windows系统下的任务管理器， 以下为程序运行时的截图：  
+　　分析Linux的/proc文件系统，得到系统进程和资源的信息，在图形界面上实时的显示出来。实现的功能类似于windows系统下的任务管理器， 以下为程序运行时的截图：  
 ![1]({{site.baseurl}}/img/projects/SystemMonitor/1.png)  
 ![2]({{site.baseurl}}/img/projects/SystemMonitor/2.png)  
 ![3]({{site.baseurl}}/img/projects/SystemMonitor/3.png)  
