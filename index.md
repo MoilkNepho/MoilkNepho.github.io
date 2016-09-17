@@ -51,7 +51,7 @@ title: Moilk主页
 
 
 ************************
-> 人类的梦想是不会终结的！  
-———> 出自 海贼王![sina]({{site.baseurl}}/img/px16/onepiece.png)  
+> Your time is limited, so don't waste it living someone else's life.…Don't let the noise of others' opinions drown out your own inner voice.  
+———> Steven Jobs![sina]({{site.baseurl}}/img/px16/jobs.png)  
 
 ![日历]({{site.baseurl}}/img/rili.png) 更新时间： 2016-09-05  
