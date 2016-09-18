@@ -3,10 +3,13 @@ layout: default
 title: 项目
 ---
 <div class="posts">
-	<h1 class="posts-title">Moilker橱窗 - 人类的梦想是不会终结的！</h1> 
-	{% for post in paginator.posts %}<a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a>
-	{% endfor %}
-
+	<h1 class="posts-title">Moilker橱窗 - 人类的梦想是不会终结的！</h1>
+	<section>
+		<div id="container_buttons"> 
+			{% for post in paginator.posts %}<p><a href="{{ post.url | prepend: site.baseurl}}" class="post-link">{{ post.title }}</a></p>
+			{% endfor %}
+		</div>
+	</section>
 	<nav>
 		<ul class="pagination pagination-posts">
 			{% if paginator.total_pages > 1 %}

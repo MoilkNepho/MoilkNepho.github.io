@@ -167,6 +167,20 @@ a:hover{
 	font-weight:bold;
 }
 
+#container_buttons{
+	width: 400px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.3);
+	padding: 60px 60px 30px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.09) inset;
+}
+
+#container_buttons p{
+	display:block;
+	padding-bottom:60px;
+}
+
 .post-link {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
