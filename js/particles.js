@@ -3,13 +3,14 @@
  * @author Jonathan Nicol - @mrjnicol
  */
 
-document.addEventListener('DOMContentLoaded', function () {
+ document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
     dotColor: 'black',
     lineColor: 'black'
   });
   var intro = document.getElementById('intro');
-  intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+  var par = document.getElementById('particles');
+  intro.style.marginTop = - par.offsetHeight / 2 + 'px';
 }, false);
 
 
