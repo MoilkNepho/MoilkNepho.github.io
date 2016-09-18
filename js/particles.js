@@ -10,7 +10,7 @@
   });
   var intro = document.getElementById('intro');
   var par = document.getElementById('particles');
-  intro.style.marginTop = - par.offsetHeight / 2 + 'px';
+  intro.style.marginTop = - (par.offsetHeight + intro.offsetHeight) / 2 + 'px';
 }, false);
 
 
