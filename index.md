@@ -15,37 +15,37 @@ title: Moilk主页
 | 7 | [rolling stone]({{site.baseurl}}/blog/2016/02/01/RollingStone/) | 2016-02-12 |
 
 ### ![推荐]({{site.baseurl}}/img/myLogo/tuijian.png) 精彩推荐  
-　　分享一个延时D算法：  
+　　分享一个延时Dijkstra算法：  
 
 ```java
-    // single-source shortest path problem from s
-    public LazyDijkstraSP(EdgeWeightedDigraph G, int s) {
-        for (DirectedEdge e : G.edges()) { 
-            if (e.weight() < 0)
-                throw new IllegalArgumentException("edge " + e + " has negative weight");
-        }
-
-        pq = new MinPQ<DirectedEdge>(new ByDistanceFromSource());
-        marked = new boolean[G.V()];
-        edgeTo = new DirectedEdge[G.V()];
-        distTo = new double[G.V()];
-
-        // initialize
-        for (int v = 0; v < G.V(); v++)
-            distTo[v] = Double.POSITIVE_INFINITY;
-        distTo[s] = 0.0;
-        relax(G, s);
-
-        // run Dijkstra's algorithm
-        while (!pq.isEmpty()) {
-            DirectedEdge e = pq.delMin();
-            int v = e.from(), w = e.to();
-            if (!marked[w]) relax(G, w);   // lazy, so w might already have been relaxed
-        }
-
-        // check optimality conditions
-        assert check(G, s);
+// single-source shortest path problem from s
+public LazyDijkstraSP(EdgeWeightedDigraph G, int s) {
+    for (DirectedEdge e : G.edges()) { 
+        if (e.weight() < 0)
+            throw new IllegalArgumentException("edge " + e + " has negative weight");
     }
+
+    pq = new MinPQ<DirectedEdge>(new ByDistanceFromSource());
+    marked = new boolean[G.V()];
+    edgeTo = new DirectedEdge[G.V()];
+    distTo = new double[G.V()];
+
+    // initialize
+    for (int v = 0; v < G.V(); v++)
+        distTo[v] = Double.POSITIVE_INFINITY;
+    distTo[s] = 0.0;
+    relax(G, s);
+
+    // run Dijkstra's algorithm
+    while (!pq.isEmpty()) {
+        DirectedEdge e = pq.delMin();
+        int v = e.from(), w = e.to();
+        if (!marked[w]) relax(G, w);   // lazy, so w might already have been relaxed
+    }
+
+    // check optimality conditions
+    assert check(G, s);
+}
 ```
 
 
@@ -54,4 +54,4 @@ title: Moilk主页
 > Your time is limited, so don't waste it living someone else's life.…Don't let the noise of others' opinions drown out your own inner voice.  
 ———> Steven Jobs![sina]({{site.baseurl}}/img/px16/jobs.png)  
 
-![日历]({{site.baseurl}}/img/rili.png) 更新时间： 2016-09-05  
+![日历]({{site.baseurl}}/img/rili.png) 更新时间： 2016-09-18  

@@ -24,7 +24,7 @@ excerpt: "大三时操作系统课设的一部分"
 + 开发时间: 2016年6月  
 + 运行环境： Linux Distribution  
 + 联系方式： Moilk@qq.com  
-+ github: [Draught-Github](https://github.com/Moilk/SystemMonitor)  
++ github: [SystemMonitor-Github](https://github.com/Moilk/SystemMonitor)  
   
 ----------------------------------------
   
