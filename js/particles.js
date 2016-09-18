@@ -8,9 +8,6 @@
     dotColor: 'black',
     lineColor: 'black'
   });
-  var intro = document.getElementById('intro');
-  var par = document.getElementById('particles');
-  intro.style.marginTop = - (par.offsetHeight + intro.offsetHeight) / 2 + 'px';
 }, false);
 
 
