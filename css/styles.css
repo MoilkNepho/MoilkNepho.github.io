@@ -182,88 +182,41 @@ a:hover{
 }
 
 .post-link {
-    background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
     color: #000;
     position: relative;
     padding: 10px 20px;
-    border-left: solid 1px #acb8bd;
     margin-left: 35px;
-    background-image: linear-gradient(bottom, rgb(214, 214, 214) 0%, rgb(243, 243, 243) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(214, 214, 214) 0%, rgb(243, 243, 243) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(214, 214, 214) 0%, rgb(243, 243, 243) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(214, 214, 214) 0%, rgb(243, 243, 243) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(214, 214, 214) 0%, rgb(243, 243, 243) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(214, 214, 214)), color-stop(1, rgb(243, 243, 243)) );
     -webkit-border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
     -moz-border-radius-topright: 5px;
     -moz-border-radius-bottomright: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    -webkit-box-shadow: inset 0px 1px 0px #dadada, 0px 5px 0px 0px #a5a5a5, 0px 10px 5px #999;
-    -moz-box-shadow: inset 0px 1px 0px #dadada, 0px 5px 0px 0px #a5a5a5, 0px 10px 5px #999;
-    -o-box-shadow: inset 0px 1px 0px #dadada, 0px 5px 0px 0px #a5a5a5, 0px 10px 5px #999;
-    box-shadow: inset 0px 1px 0px #dadada, 0px 5px 0px 0px #a5a5a5, 0px 10px 5px #999;
-}
-
-.post-link:active {
-    top: 3px;
-    background-image: linear-gradient(bottom, rgb(243, 243, 243) 0%, rgb(214, 214, 214) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(243, 243, 243) 0%, rgb(214, 214, 214) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(243, 243, 243) 0%, rgb(214, 214, 214) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(243, 243, 243) 0%, rgb(214, 214, 214) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(243, 243, 243) 0%, rgb(214, 214, 214) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(243, 243, 243)), color-stop(1, rgb(214, 214, 214)) );
-    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
-    box-shadow: inset 0px 1px 0px #d6d6d6, 0px 2px 0px 0px #dcdcdc, 0px 5px 3px #999;
+    border: 1px dashed;
 }
 
 .post-link::before {
-    background-color: black;
     content: "❀";
     text-align: center;
-    width: 35px;
-    max-height: 29px;
-    height: 100%;
+    width: 48px;
+    max-height: 48px;
+    height: 82%;
+    padding-top: 8px;
     position: absolute;
     display: block;
-    padding-top: 8px;
-    top: 0px;
-    left: -36px;
-    font-size: 16px;
+    top: -1px;
+    left: -48px;
+    font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
-    /* text-shadow: 1px 1px 0px #ffffff; */
-    border-right: solid 1px #000000;
-    background-image: linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(84, 84, 84) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(84, 84, 84) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(84, 84, 84) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(84, 84, 84) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgb(84, 84, 84) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(0, 0, 0)), color-stop(1, rgb(84, 84, 84)) );
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-bottomleft: 5px;
+    color: black;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    -webkit-box-shadow: inset 0px 1px 0px #5c5c5d, 0px 5px 0px 0px #151515, 0px 10px 5px #999;
-    -moz-box-shadow: inset 0px 1px 0px #5c5c5d, 0px 5px 0px 0px #151515, 0px 10px 5px #999;
-    -o-box-shadow: inset 0px 1px 0px #5c5c5d, 0px 5px 0px 0px #151515, 0px 10px 5px #999;
-    box-shadow: inset 0px 1px 0px #5c5c5d, 0px 5px 0px 0px #151515, 0px 10px 5px #999;
-}
-
-.post-link:active::before {
-	top:-3px;
-	-webkit-box-shadow:inset 0px 1px 0px #313131, 0px 5px 0px 0px #191919, 1px 1px 0px 0px #444444, 2px 2px 0px 0px #5c5c5d, 2px 5px 0px 0px #5e5f5f, 6px 4px 2px #5e5f5f, 0px 10px 5px #999;
-	-moz-box-shadow:inset 0px 1px 0px #313131, 0px 5px 0px 0px #191919, 1px 1px 0px 0px #444444, 2px 2px 0px 0px #5c5c5d, 2px 5px 0px 0px #5e5f5f, 6px 4px 2px #5e5f5f, 0px 10px 5px #999;
-	-o-box-shadow:inset 0px 1px 0px #313131, 0px 5px 0px 0px #191919, 1px 1px 0px 0px #444444, 2px 2px 0px 0px #5c5c5d, 2px 5px 0px 0px #5e5f5f, 6px 4px 2px #5e5f5f, 0px 10px 5px #999;
-	box-shadow: inset 0px 1px 0px #313131, 0px 5px 0px 0px #191919, 1px 1px 0px 0px #444444, 2px 2px 0px 0px #5c5c5d, 2px 5px 0px 0px #5e5f5f, 6px 4px 2px #5e5f5f, 0px 10px 5px #999;
+    border-top: 1px dashed;
+    border-left: 1px dashed;
+    border-bottom: 1px dashed;
 }
 
 .post-body {
