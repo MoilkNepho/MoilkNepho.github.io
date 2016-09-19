@@ -200,6 +200,12 @@ a:hover{
     border: 1px dashed;
 }
 
+.post-link:hover{
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+}
+
 .post-link::before {
     content: "❀";
     text-align: center;
@@ -470,7 +476,7 @@ video {
 		text-align: center;
 	}
 
-	.post-link {
+	#container_buttons{
 		width: 100%;
 	}
 
