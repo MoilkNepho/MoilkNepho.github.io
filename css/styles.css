@@ -208,7 +208,7 @@ a:hover{
 }
 
 .post-link::before {
-	content: "❀";
+	content: "✿";
 	text-align: center;
 	width: 48px;
 	max-height: 48px;
