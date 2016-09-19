@@ -169,7 +169,7 @@ a:hover{
 
 #container_buttons{
 	width: 80%;
-	margin-top:50px;
+	margin:36px,auto;
 	background: rgba(255,255,255,0.3);
 	padding: 60px 60px 30px;
 	border-radius: 20px;
@@ -227,7 +227,7 @@ a:hover{
 	border-bottom: 1px dashed;
 }
 
-.post-link::before:hover{
+.post-link:hover::before{
 	text-decoration: none;
 	color: orange;
 	font-weight: bold;
