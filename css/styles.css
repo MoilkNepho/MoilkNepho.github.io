@@ -169,7 +169,8 @@ a:hover{
 
 #container_buttons{
 	width: 80%;
-	margin:36px,auto;
+	margin-top: 50px;
+	margin-left:30px；
 	background: rgba(255,255,255,0.3);
 	padding: 60px 60px 30px;
 	border-radius: 20px;
@@ -483,6 +484,8 @@ video {
 	}
 
 	#container_buttons{
+		margin-top: 5px;
+		margin-left: 0px;
 		width: 100%;
 	}
 
