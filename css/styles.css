@@ -541,6 +541,18 @@ video {
 	.nav .icon{
 		margin-bottom: 0px;
 	}
+	.post-link {
+		font-size: 12px;
+		margin-left: 0px;
+		height: 38px;
+	}
+	.post-link::before{
+		font-size: 12px;
+		height: =38px;
+	}
+	#container_buttons p {
+		padding-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 350px){
