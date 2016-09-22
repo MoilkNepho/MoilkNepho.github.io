@@ -544,7 +544,6 @@ video {
 	.post-link {
 		font-size: 12px;
 		margin-left: 0px;
-		height: 38px;
 	}
 	.post-link::before{
 		font-size: 12px;
