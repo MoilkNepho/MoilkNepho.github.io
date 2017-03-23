@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Smart Plug(IN FULL SWING)
+title: 远程控制的智能开关系统(in progress)
 tags:  [IoT]
 categories: [qt]
 author: Moilk
 excerpt:"智能插座"
 ---
-
+-------------------------------
 ## 远程控制的智能开关系统  
-
+-------------------------------
 项目正在进行中，目前仅实现了如下功能：  
 
 - 添加设备  
