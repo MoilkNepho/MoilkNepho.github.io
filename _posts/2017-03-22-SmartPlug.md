@@ -37,7 +37,7 @@ excerpt: "智能插座"
 
 **---> Downloads**  
 
-[Molin_debug_0.0.1.apk](https://github.com/Moilk/Molin/releases/download/v0.0.1/Molin_debug_0.0.1.apk)  
+[Molin_debug_0.0.1.apk](https://codeload.github.com/Moilk/Molin/zip/app)  
 [Source code(zip)](https://github.com/Moilk/Molin/archive/v0.0.1.zip)  
 
 ------------------------------
