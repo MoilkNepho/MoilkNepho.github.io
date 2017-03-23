@@ -37,8 +37,11 @@ excerpt: "智能插座"
 
 **---> Downloads**  
 
-[Molin_debug_0.0.1.apk](https://codeload.github.com/Moilk/Molin/zip/app)  
-[Source code(zip)](https://github.com/Moilk/Molin/archive/v0.0.1.zip)  
+[Molin-app.zip(app安装包的压缩文件)](https://codeload.github.com/Moilk/Molin/zip/app)  
+[org.moilk.iot.molin.apk（app安装包)](https://github.com/Moilk/Molin/releases/download/v0.0.1/org.moilk.iot.molin.apk)  
+[Source code(源代码的压缩文件)](https://github.com/Moilk/Molin/archive/v0.0.1.zip)  
+
+--> *Link:* [Release on Github](https://github.com/Moilk/Molin/releases)  
 
 ------------------------------
 2017/03/23/10:25
