@@ -25,11 +25,11 @@ excerpt: "智能插座"
 
 - 开关原型设计  
 - APP功能完善:  
-	+ 账户管理  
-	+ 情景模式  
 	+ 添加删除设备  
-	+ UI完善  
 	+ WebSocket  
+	+ UI完善  
+	+ 情景模式  
+	+ 账户管理  
 
 ## pre-release  
 
@@ -40,6 +40,5 @@ excerpt: "智能插座"
 [Molin_debug_0.0.1.apk](https://github.com/Moilk/Molin/releases/download/v0.0.1/Molin_debug_0.0.1.apk)  
 [Source code(zip)](https://github.com/Moilk/Molin/archive/v0.0.1.zip)  
 
-  
-
-> keep it simple,stupid
+------------------------------
+2017/03/23/10:25
