@@ -11,9 +11,7 @@ url: "http://moilk.org"
 # Markdown设置
 kramdown:
   input:  GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers:  nil
+  use_coderay: false
 highlighter: pygments
 
 # 分页设置
