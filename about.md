@@ -15,7 +15,7 @@ title: 关于
 本科生，2013-  
 
 * **兴趣爱好**  
-物联网+Android+Linux+Arduino+海贼王+...,爱设计，爱思考，爱真真！[smile]({{stie.baseurl}}/img/px16/smile.png)  
+物联网+Android+Linux+Arduino+海贼王+...,爱设计，爱思考，爱真真！![smile]({{stie.baseurl}}/img/px16/smile.png)  
 
 
 ### --------> ![联系]({{stie.baseurl}}/img/myLogo/contact.png) 联系我
