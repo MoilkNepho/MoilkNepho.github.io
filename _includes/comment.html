@@ -1,11 +1,16 @@
-<!-- 评论 -->
-
-<!--PC版-->
-<div id="SOHUCS" sid="{{page.id}}"></div>
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cysIbOpiv',
-conf: 'prod_cddff13234ca4e239d02f0ca25792def'
-});
+<!-- 评论框 -->
+<div id="post-comment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '{{page.id}}',
+  owner: '{{site.gitment.githubID}}',
+  repo: '{{site.gitment.repo}}',
+  oauth: {
+    client_id: '{{site.gitment.ClientID}}',
+    client_secret: '{{site.gitment.ClientSecret}}',
+  },
+})
+gitment.render('post-comment')
 </script>

@@ -12,8 +12,17 @@ url: "http://moilk.org"
 kramdown:
   input:  GFM
   use_coderay: false
-highlighter: pygments
+highlighter: rouge
 
 # 分页设置
 paginate: 6
 paginate_path: "project/page:num"
+
+# GitMent设置
+gitment:
+  enable: true
+  githubID: MoilkNepho
+  repo: MoilkNepgo.github.io
+  ClientID: 39587457ab8aabd98d18
+  ClientSecret: 14768f3ef851ddc213cd12c44655d10dd1dc025f
+  lazy: true
