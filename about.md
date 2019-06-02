@@ -22,7 +22,7 @@ title: 关于
 
 ![email]({{stie.baseurl}}/img/px16/email.png) 邮箱: moilk@qq.com  
 ![github]({{stie.baseurl}}/img/px16/github.png) github: [MoilkNepho](https://github.com/moilknepho)  
-![sina]({{stie.baseurl}}/img/px16/sina.png) 新浪微博: [Moilk](http://weibo.com/moilk/)  
+![sina]({{stie.baseurl}}/img/px16/sina.png) 新浪微博: [Moilk](https://weibo.com/moilk/)  
 
 ************************
 > 人类的梦想是不会终结的！  
