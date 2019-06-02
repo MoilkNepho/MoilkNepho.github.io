@@ -211,8 +211,7 @@ a:hover{
 	content: "✿";
 	text-align: center;
 	width: 48px;
-	max-height: 48px;
-	height: 48px;
+	height: 50px;
 	padding-top: 8px;
 	position: absolute;
 	display: block;
