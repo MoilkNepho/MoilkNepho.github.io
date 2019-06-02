@@ -6,9 +6,9 @@ title: Moilk主页
 
 | # | 项目 | 更新时间 |  
 | :--:| :--: | :---: |  
-| 1 | [Linux图形化系统监视器]({{site.baseurl}}/2016/09/17/SystemMonitor) | 2016-09-17 |  
-| 2 | [ccf认证(更新中)]({{site.baseurl}}/blog/category/#CCF) | 2016-09-05 |  
-| 3 | [算法-斐波那契数列]({{site.baseurl}}/blog/2016/03/18/algorithms01/) |2016-03-18 |  
+| 1 | [Java动态代理]({{site.baseurl}}/blog/2019/03/09/Dynamic_Proxy/) | 2019-03-09 |  
+| 2 | [Java中的抽象类和抽象方法]({{site.baseurl}}/blog/2018/12/26/Java_abstract_class_and_method/) | 2018-12-26 |  
+| 3 | [Unix中的I/O模型]({{site.baseurl}}/blog/2018/07/22/Unix_IO_pattern/) |2018-07-22 |  
 | 4 | [国际跳棋]({{site.baseurl}}/2016/02/21/draught) |2016-02-21 |  
 | 5 | [贪吃蛇]({{site.baseurl}}/2016/02/20/snake) |2016-02-20 |  
 | 6 | [校园卡终端]({{site.baseurl}}/2016/02/15/CampusCardTerminal) |2016-02-15 |  
@@ -54,4 +54,4 @@ public LazyDijkstraSP(EdgeWeightedDigraph G, int s) {
 > Your time is limited, so don't waste it living someone else's life.…Don't let the noise of others' opinions drown out your own inner voice.  
 ———> Steven Jobs![sina]({{site.baseurl}}/img/px16/jobs.png)  
 
-![日历]({{site.baseurl}}/img/rili.png) 更新时间： 2016-09-18  
+![日历]({{site.baseurl}}/img/rili.png) 更新时间： 2019-03-10  
